@@ -12,25 +12,33 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 40px;
 }
 
 h3 {
     font-size: 24px;
 }
 
+
+
 /* Layout components */
 .container {
-    width: 60vw;
+    width: 55vw;
 }
 
 .navbar {
     padding: 20px 0px;
 }
 
+.nav-link {
+    font-family: 'League Spartan Bold', arial;
+    font-size: 14px;
+}
+
 .hero {
     background-color: transparent;
-    margin: 65px 0px 65px 0px;
+    margin-top: 20vh;
+    height: 80vh;
 }
 
 .row {
