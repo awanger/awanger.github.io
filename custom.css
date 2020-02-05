@@ -9,9 +9,13 @@
     width: 55vw;
 }
 
+.navbar {
+    padding: 20px 0px;
+}
+
 .hero {
     background-color: transparent;
-    margin: 70px 0px 70px 0px;
+    margin: 65px 0px 65px 0px;
 }
 
 .row {
@@ -19,3 +23,14 @@
 }
 
 /* Style */
+#first-project {
+    background-color:#FF9393;
+}
+
+#second-project {
+    background-color: #93FFA8;
+}
+
+#third-project {
+    background-color: #93FFFB;
+}
