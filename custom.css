@@ -1,12 +1,27 @@
-/* Custom styles */
-
+@import url(http://allfont.net/allfont.css?fonts=league-spartan);
+@import url(avenir-font/Avenir-Book.otf);
 
 /* Global font style */
+body {
+    font-family: 'Avenir-Book', arial;
+    font-size: 16px;
+}
 
+h1, h2, h3 {
+    font-family: 'League Spartan Bold', arial;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 24px;
+}
 
 /* Layout components */
 .container {
-    width: 55vw;
+    width: 60vw;
 }
 
 .navbar {
@@ -22,7 +37,7 @@
     margin: 30px 0px 30px 0px; 
 }
 
-/* Style */
+/* Invididual Styles */
 #first-project {
     background-color:#FF9393;
 }
