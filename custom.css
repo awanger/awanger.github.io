@@ -1,0 +1,21 @@
+/* Custom styles */
+
+
+/* Global font style */
+
+
+/* Layout components */
+.container {
+    width: 55vw;
+}
+
+.hero {
+    background-color: transparent;
+    margin: 70px 0px 70px 0px;
+}
+
+.row {
+    margin: 30px 0px 30px 0px; 
+}
+
+/* Style */
