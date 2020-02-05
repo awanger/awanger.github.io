@@ -1,6 +1,12 @@
 @import url(http://allfont.net/allfont.css?fonts=league-spartan);
 @import url(avenir-font/Avenir-Book.otf);
 
+
+.selectedText {
+      background-color: #FFF507;
+    }
+    
+
 /* Global font style */
 body {
     font-family: 'Avenir-Book', arial;
