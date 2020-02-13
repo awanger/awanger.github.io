@@ -25,6 +25,11 @@ h3 {
     font-size: 24px;
 }
 
+h4 {
+    font-family: 'Avenir-Heavy', arial;
+    font-size: 24px;
+}
+
 
 
 /* Layout components */
@@ -62,4 +67,14 @@ h3 {
 
 #third-project {
     background-color: #93FFFB;
+}
+
+/* Icons */
+.ico-instagram {
+  background-repeat: no-repeat;
+  background-image: inline-image("icons//instagram.svg");
+}
+
+.linkedin-ico {
+    
 }
