@@ -1,5 +1,4 @@
-@import url(http://allfont.net/allfont.css?fonts=league-spartan);
-@import url(avenir-font/Avenir-Book.otf);
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap');
 
 
 .selectedText {
@@ -9,16 +8,16 @@
 
 /* Global font style */
 body {
-    font-family: 'Avenir-Book', arial;
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
 }
 
 h1, h2, h3 {
-    font-family: 'League Spartan Bold', arial;
+    font-family: 'Lato', sans-serif;
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 82px;
 }
 
 h3 {
@@ -34,7 +33,7 @@ h4 {
 
 /* Layout components */
 .container {
-    
+
 }
 
 .navbar {
