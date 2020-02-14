@@ -16,25 +16,32 @@ h1 {
     font-size: 76px;
 }
 
+.lead p {
+    font-size: 18px;
+}
+
 /* Layout components */
 .container {
-    width: 90vw;
 }
 
 .navbar {
-    padding: 20px 0px;
+    margin-top: 10px;
+    /* padding: 20px 0px; */
+    /* margin-left: 72px; */
+    /* margin-right: 72px; */
 }
 
 .nav-link {
     font-size: 20px;
-    margin: 0px 15px;
+    display: inline;
 }
 
 
-.hero {
+
+.jumbotron {
     background-color: transparent;
-    margin-top: 10vh;
-    height: 90vh;
+    /* margin-top: 10vh; */
+    height: 100vh;
 }
 
 .row {
