@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
 
 
 .selectedText {
@@ -12,12 +12,28 @@ body {
     color: #4b4b4b;
 }
 
-h1 {
-    font-size: 76px;
+h1, h2 {
+    font-weight: 700;
 }
 
-.lead p {
-    font-size: 18px;
+h1 {
+    font-size: 78px;
+}
+
+h2 {
+    font-size: 38px;
+}
+
+p {
+    font-size: 18px; /* 1.25rem */
+    font-weight: 400;
+}
+
+.subheading {
+    font-family: 'Lato', sans-serif;;
+    font-weight: 300;
+    font-size: 16px;
+    color: #606060;
 }
 
 /* Layout components */
@@ -32,7 +48,7 @@ h1 {
 }
 
 .nav-link {
-    font-size: 20px;
+    font-size: 18px;
     display: inline;
 }
 
@@ -42,6 +58,7 @@ h1 {
     background-color: transparent;
     /* margin-top: 10vh; */
     height: 100vh;
+    width: 100vw;
 }
 
 .row {
@@ -49,16 +66,8 @@ h1 {
 }
 
 /* Invididual Styles */
-#first-project {
-    background-color:#FF9393;
-}
-
-#second-project {
-    background-color: #93FFA8;
-}
-
-#third-project {
-    background-color: #93FFFB;
+.btn-outline-dark {
+ border-radius: 0rem;
 }
 
 /* Icons */
@@ -84,4 +93,8 @@ h1 {
   @keyframes blinkTextCursor{
     from{border-right-color: rgba(255,255,255,.75);}
     to{border-right-color: transparent;}
+  }
+
+  #caq-survey {
+      width: 100%;
   }
