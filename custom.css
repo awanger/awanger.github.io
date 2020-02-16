@@ -29,13 +29,14 @@ h3 {
 }
 
 .subheading, p {
-    font-size: 18px; /* 1.25rem */
+    font-size: 16px; /* 1.25rem */
     font-weight: 300;
 }
 
 
 .subheading {
     color: #606060;
+    font-size: 14px;
 }
 
 /* Layout components */
@@ -63,6 +64,10 @@ h3 {
 
 .row {
     margin-top: 80px; 
+}
+
+.thumbnail {
+    max-width: 100%;
 }
 
 /* Invididual Styles */
@@ -93,9 +98,4 @@ h3 {
   @keyframes blinkTextCursor{
     from{border-right-color: rgba(255,255,255,.75);}
     to{border-right-color: transparent;}
-  }
-
-/* Images */
-  #caq-survey {
-      width: 100%;
   }
