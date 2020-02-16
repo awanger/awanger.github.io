@@ -53,15 +53,12 @@ h3 {
     display: inline;
 }
 
-
-.jumbotron {
-    background-color: transparent;
-    /* margin-top: 10vh; */
-    height: 100vh;
-}
-
 .hero {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
     height: 100vh;
+    /* background-color: #eeeeee; */
 }
 
 .row {
