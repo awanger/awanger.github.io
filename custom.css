@@ -53,7 +53,6 @@ p {
 }
 
 
-
 .jumbotron {
     background-color: transparent;
     /* margin-top: 10vh; */
@@ -62,7 +61,7 @@ p {
 }
 
 .row {
-    margin: 30px 0px 30px 0px; 
+    margin-top: 60px; 
 }
 
 /* Invididual Styles */
@@ -95,6 +94,7 @@ p {
     to{border-right-color: transparent;}
   }
 
+/* Images */
   #caq-survey {
       width: 100%;
   }
