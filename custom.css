@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
 
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
 /* Global font style */
 body {
     font-family: 'Lato', sans-serif;
@@ -40,4 +47,27 @@ body {
 
 .btn {
     margin-right: 12px;
+}
+
+/* Content */
+.section-header {
+    font-size: 12px;
+    font-weight: 400;
+    color: grey;
+    text-transform: uppercase;
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+
+.portfolio-content {
+    background-color: #FAFAFA;
+}
+
+.project-container {
+    display: flex;
+    flex-grow: 1;
+    height: 340px;
+    width: 100%;
+    margin-bottom: 80px;
+    transition: all 0.4s ease;
 }
