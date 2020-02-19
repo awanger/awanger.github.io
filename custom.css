@@ -37,3 +37,7 @@ body {
     height: 100vh;
     background-color: #FFFFFF;
 }
+
+.btn {
+    margin-right: 12px;
+}
