@@ -64,10 +64,21 @@ body {
 }
 
 .project-container {
-    display: flex;
-    flex-grow: 1;
-    height: 340px;
-    width: 100%;
-    margin-bottom: 80px;
-    transition: all 0.4s ease;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 4em;
+    justify-items: stretch;
+    /* height: 340px; */
+}
+
+.project-preview {
+
+}
+
+.fit-width {
+    max-width: 100%;
+}
+
+.project-description {
+    background-color: #FFFFFF;
 }
