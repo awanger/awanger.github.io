@@ -33,6 +33,10 @@ body {
     font-weight: 300;
 }
 
+a {
+    color: inherit;
+}
+
 
 /* Navbar */
 .bg-dark {
@@ -66,12 +70,17 @@ body {
 .project-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* height: 340px; */
+    height: 340px;
 }
 
 .box {
-    margin-bottom: 4em;
+    margin-bottom: 6em;
 }
+
+a:hover {
+    color: inherit;
+}
+
 
 .project-preview {
 
@@ -89,7 +98,7 @@ body {
 }
 
 
-.fit-width {
+.fit {
     max-width: 100%;
 }
 
