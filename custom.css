@@ -83,7 +83,7 @@ a:hover {
 
 
 .project-preview {
-
+    
 }
 
 .project-description {
@@ -99,9 +99,18 @@ a:hover {
 
 
 .fit {
-    max-width: 100%;
+    width: 100%;
+    /* object-fit: fill; */
 }
 
 .project-description {
     background-color: #FFFFFF;
 }
+
+
+/* Footer */
+footer {
+    background-color: #0A0A0A;
+    padding-top: 20px;
+}
+
