@@ -37,6 +37,10 @@ a {
     color: inherit;
 }
 
+a:hover {
+    color: inherit;
+}
+
 
 /* Navbar */
 .bg-dark {
@@ -71,16 +75,15 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 340px;
+    box-shadow: 0 0px 200px 0px rgba(0, 0, 0, 0.19);
 }
+
+
 
 .box {
     margin-bottom: 6em;
+    
 }
-
-a:hover {
-    color: inherit;
-}
-
 
 .project-preview {
     
