@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
 
 
+.col-md-6 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
 .container {
     max-width: 1160px;
     margin: 0 auto;
@@ -49,7 +54,7 @@ a:hover {
 
 /* Hero section */
 .jumbotron {
-    height: 100vh;
+    height: 90vh;
     background-color: #FFFFFF;
 }
 
@@ -71,18 +76,22 @@ a:hover {
     background-color: #FAFAFA;
 }
 
-.project-container {
+/* .project-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     height: 340px;
-    box-shadow: 0 0px 200px 0px rgba(0, 0, 0, 0.19);
-}
+    
+} */
 
 
 
 .box {
     margin-bottom: 6em;
     
+} 
+
+.box:hover {
+    box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.19);
 }
 
 .project-preview {
@@ -103,6 +112,7 @@ a:hover {
 
 .fit {
     width: 100%;
+    height: 100%;
     /* object-fit: fill; */
 }
 
