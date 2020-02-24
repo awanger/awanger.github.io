@@ -90,11 +90,14 @@ a:hover {
 
 .box {
     margin-bottom: 6em;
+    transition: all 0.4s ease;
+    
+    /* height: 340px; */
     
 } 
 
 .box:hover {
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.19);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.19);    
 }
 
 .project-preview {
