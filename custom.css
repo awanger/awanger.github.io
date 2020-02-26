@@ -30,6 +30,11 @@ body {
     font-weight: 700;
     margin-top: 60px;
     font-size: 72px;
+    @media screen {
+        .title1 {
+            font-size: 32px;
+        }
+    }
 }
 
 .title2 {
@@ -91,8 +96,7 @@ a:hover {
 .box {
     margin-bottom: 6em;
     transition: all 0.4s ease;
-    
-    /* height: 340px; */
+    /* max-height: 340px; */
     
 } 
 
