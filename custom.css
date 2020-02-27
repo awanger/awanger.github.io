@@ -31,8 +31,9 @@ body {
     margin-top: 60px;
     font-size: 72px;
 }   @media screen and (max-width: 440px) {
-        .title1 {
-            font-size: 40px;
+        .title1 { 
+            font-size: 40px; 
+            margin-top: 30px;
         }
     }
 
@@ -40,9 +41,7 @@ body {
     margin-top: 65px;
     font-size: 24px;
 }   @media screen and (max-width: 440px) {
-        .title2 {
-            font-size: 20px;
-        }
+        .title2 { font-size: 20px; }
 }
 
 .blurb {    
@@ -68,6 +67,8 @@ a:hover {
 .jumbotron {
     height: 90vh;
     background-color: #FFFFFF;
+}  @media screen and (max-width: 440px) {
+    .jumbotron { height: 60vh; }
 }
 
 .btn {
