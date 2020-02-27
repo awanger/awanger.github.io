@@ -30,21 +30,25 @@ body {
     font-weight: 700;
     margin-top: 60px;
     font-size: 72px;
-    @media screen {
+}   @media screen and (max-width: 440px) {
         .title1 {
-            font-size: 32px;
+            font-size: 40px;
         }
     }
-}
 
 .title2 {
     margin-top: 65px;
+    font-size: 24px;
+}   @media screen and (max-width: 440px) {
+        .title2 {
+            font-size: 20px;
+        }
 }
 
-.blurb {
-    font-size: 24px;
+.blurb {    
     font-weight: 300;
-}
+} 
+
 
 a, a:hover {
     color: inherit;
