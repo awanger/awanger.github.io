@@ -32,7 +32,7 @@ body {
     margin-top: 60px;
 }   @media screen and (max-width: 440px) {
         .title1 { 
-            font-size: 40px; 
+            font-size: 40px;
             margin-top: 30px;
         }
     }
@@ -67,8 +67,10 @@ a:hover {
 .jumbotron {
     height: 90vh;
     background-color: #FFFFFF;
-}  @media screen and (max-width: 440px) {
-    .jumbotron { height: 90vh; }
+} @media screen and (max-width: 440px) {
+    .jumbotron {
+        height: 60vh;
+    }
 }
 
 .btn {
@@ -96,6 +98,11 @@ a:hover {
     
 } */
 
+.box:hover {
+    box-shadow: 0 10px 20px #c7cad1;
+    -webkit-transform: translate(0, -5px);
+            transform: translate(0, -5px);
+}
 
 
 .box {
@@ -105,15 +112,10 @@ a:hover {
 } @media screen and (max-width: 440px) {
     .box { 
         box-shadow: 0 10px 20px #c7cad1;
-        max-width: 100px;
+        margin: 0px 25px 40px 25px;
      }
 }
 
-.box:hover {
-    box-shadow: 0 10px 20px #c7cad1;
-    -webkit-transform: translate(0, -5px);
-            transform: translate(0, -5px);
-}
 
 .project-title {
     font-size: 40px;
