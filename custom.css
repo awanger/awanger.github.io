@@ -129,13 +129,13 @@ a:hover {
     padding: 40px;
 }
 
-.metadata {
+.subtitle {
     color: #7D7D80;
     font-size: 13px;
     letter-spacing: 1px;
     margin-bottom: 56px;
 } @media screen and (max-width: 575px) {
-    .metadata { margin-bottom: 24px; }
+    .subtitle { margin-bottom: 24px; }
 }
 
 
@@ -147,6 +147,29 @@ a:hover {
 
 .project-description {
     background-color: #FFFFFF;
+}
+
+
+
+.subheading {
+    color: #7D7D80;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+} @media screen and (max-width: 575px) {
+    .subheading { margin-bottom: 24px; }
+}
+
+
+
+.text-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.project-text {
+
 }
 
 
