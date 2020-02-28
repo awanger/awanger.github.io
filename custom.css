@@ -145,6 +145,7 @@ a:hover {
     /* object-fit: fill; */
 }
 
+
 .project-description {
     background-color: #FFFFFF;
 }
@@ -165,7 +166,7 @@ a:hover {
 
 .text-container {
     max-width: 600px;
-    margin: 2em auto;
+    margin: 5em auto;
 }
 
 .project-text {

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="893" height="587" viewBox="0 0 893 587">
+  <g id="Group_37" data-name="Group 37" transform="translate(-92 -113)">
+    <g id="modal" transform="translate(92 337)">
+      <rect id="Rectangle_244" data-name="Rectangle 244" width="130" height="130" rx="18" fill="#00b1ff"/>
+    </g>
+    <g id="question_modal" data-name="question modal" transform="translate(421.076 310.235)">
+      <rect id="Rectangle_244-2" data-name="Rectangle 244" width="130" height="130" rx="18" transform="translate(91.924 0) rotate(45)" fill="#00b1ff"/>
+    </g>
+    <g id="Group_35" data-name="Group 35" transform="translate(0 -76)">
+      <g id="modal-2" data-name="modal" transform="translate(448 646)">
+        <rect id="Rectangle_244-3" data-name="Rectangle 244" width="130" height="130" rx="18" fill="#00b1ff"/>
+      </g>
+      <text id="Fill_out_the_form_for_that_category" data-name="Fill out the form for that category" transform="translate(454 681)" fill="#fff" font-size="14" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="9.423" y="14">Fill out the form </tspan><tspan x="7.473" y="31">for that category</tspan></text>
+    </g>
+    <text id="Training_or_recognition_in_category_" data-name="Training or recognition
+in category?" transform="translate(517 398)" fill="#fff" font-size="14" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="-69.16" y="0">Training or recognition</tspan><tspan x="-37.338" y="20">in category?</tspan></text>
+    <g id="Group_34" data-name="Group 34" transform="translate(-3 22)">
+      <g id="modal-3" data-name="modal" transform="translate(451 91)">
+        <rect id="Rectangle_244-4" data-name="Rectangle 244" width="130" height="130" rx="18" fill="#00b1ff"/>
+      </g>
+      <text id="Skip_to_the_next_category" data-name="Skip to the next
+category" transform="translate(516 140)" fill="#fff" font-size="14" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="-48.583" y="0">Skip to the next</tspan><tspan x="-26.796" y="20">category</tspan></text>
+    </g>
+    <g id="Group_36" data-name="Group 36" transform="translate(-153 3)">
+      <g id="modal-4" data-name="modal" transform="translate(1008 334)">
+        <rect id="Rectangle_244-5" data-name="Rectangle 244" width="130" height="130" rx="18" fill="#00b1ff"/>
+      </g>
+      <text id="Get_CAQ_score" data-name="Get CAQ score" transform="translate(1073 404)" fill="#fff" font-size="14" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="-46.179" y="0">Get CAQ score</tspan></text>
+    </g>
+    <g id="arrow_w_label" data-name="arrow w/label" transform="translate(487.875 318.5) rotate(-90)">
+      <line id="Line_12" data-name="Line 12" x2="63.625" transform="translate(0 24.5)" fill="none" stroke="#707070" stroke-width="2"/>
+      <g id="Polygon_4" data-name="Polygon 4" transform="translate(70.375 20.933) rotate(90)" fill="#707070">
+        <path d="M 6.190985202789307 6.5 L 0.8090149760246277 6.5 L 3.5 1.118029952049255 L 6.190985202789307 6.5 Z" stroke="none"/>
+        <path d="M 3.5 2.236070156097412 L 1.618034839630127 6 L 5.381965160369873 6 L 3.5 2.236070156097412 M 3.5 0 L 7 7 L 0 7 L 3.5 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <g id="Rectangle_246" data-name="Rectangle 246" transform="translate(22.386)" fill="#84d5f8" stroke="#00b1ff" stroke-width="2">
+        <rect width="26" height="48" rx="7" stroke="none"/>
+        <rect x="1" y="1" width="24" height="46" rx="6" fill="none"/>
+      </g>
+    </g>
+    <g id="arrow_w_label-2" data-name="arrow w/label" transform="translate(597.5 380.957)">
+      <line id="Line_12-2" data-name="Line 12" x2="250.5" transform="translate(0 20.543)" fill="none" stroke="#707070" stroke-width="2"/>
+      <g id="Polygon_4-2" data-name="Polygon 4" transform="translate(257.25 16.976) rotate(90)" fill="#707070">
+        <path d="M 6.190985202789307 6.5 L 0.8090149760246277 6.5 L 3.5 1.118029952049255 L 6.190985202789307 6.5 Z" stroke="none"/>
+        <path d="M 3.5 2.236070156097412 L 1.618034839630127 6 L 5.381965160369873 6 L 3.5 2.236070156097412 M 3.5 0 L 7 7 L 0 7 L 3.5 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <path id="Path_199" data-name="Path 199" d="M16.405,0H138.273c9.06,0,16.405,4.832,16.405,10.792v18.5c0,5.96-7.345,10.792-16.405,10.792H16.405C7.345,40.085,0,35.253,0,29.293v-18.5C0,4.832,7.345,0,16.405,0Z" transform="translate(38.546)" fill="#30bf51"/>
+    </g>
+    <text id="No" transform="translate(512 287)" fill="#fff" font-size="14" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="-9.233" y="0">No</tspan></text>
+    <g id="arrow_w_label-3" data-name="arrow w/label" transform="translate(536.875 486.5) rotate(90)">
+      <line id="Line_12-3" data-name="Line 12" x2="76.625" transform="translate(0 24.5)" fill="none" stroke="#707070" stroke-width="2"/>
+      <g id="Polygon_4-3" data-name="Polygon 4" transform="translate(83.375 20.933) rotate(90)" fill="#707070">
+        <path d="M 6.190985202789307 6.5 L 0.8090149760246277 6.5 L 3.5 1.118029952049255 L 6.190985202789307 6.5 Z" stroke="none"/>
+        <path d="M 3.5 2.236070156097412 L 1.618034839630127 6 L 5.381965160369873 6 L 3.5 2.236070156097412 M 3.5 0 L 7 7 L 0 7 L 3.5 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <g id="Rectangle_246-2" data-name="Rectangle 246" transform="translate(30.222)" fill="#84d5f8" stroke="#00b1ff" stroke-width="2">
+        <rect width="26" height="48" rx="7" stroke="none"/>
+        <rect x="1" y="1" width="24" height="46" rx="6" fill="none"/>
+      </g>
+    </g>
+    <g id="arrow" transform="translate(222 399)">
+      <line id="Line_12-4" data-name="Line 12" x2="192" transform="translate(0 3.567)" fill="none" stroke="#707070" stroke-width="2"/>
+      <path id="Polygon_3" data-name="Polygon 3" d="M3.5,0,7,7H0Z" transform="translate(198.75) rotate(90)" fill="#707070"/>
+    </g>
+    <g id="Round_arrow" data-name="Round arrow" transform="translate(428.26 155.66)">
+      <path id="Path_200" data-name="Path 200" d="M1949.8,1607h-16.122v203h21.967" transform="translate(-1933.679 -1607)" fill="none" stroke="#707070" stroke-linejoin="round" stroke-width="2"/>
+      <g id="Polygon_5" data-name="Polygon 5" transform="translate(28.548 199.465) rotate(90)" fill="#707070">
+        <path d="M 6.190985202789307 6.5 L 0.8090149760246277 6.5 L 3.5 1.118029952049255 L 6.190985202789307 6.5 Z" stroke="none"/>
+        <path d="M 3.5 2.236070156097412 L 1.618034839630127 6 L 5.381965160369873 6 L 3.5 2.236070156097412 M 3.5 0 L 7 7 L 0 7 L 3.5 0 Z" stroke="none" fill="#707070"/>
+      </g>
+    </g>
+    <g id="Round_arrow-2" data-name="Round arrow" transform="translate(428.26 439.125)">
+      <path id="Path_200-2" data-name="Path 200" d="M1949.8,1779.472h-16.122V1607h21.967" transform="translate(-1933.679 -1603.467)" fill="none" stroke="#707070" stroke-linejoin="round" stroke-width="2"/>
+      <g id="Polygon_5-2" data-name="Polygon 5" transform="translate(28.548) rotate(90)" fill="#707070">
+        <path d="M 6.190985202789307 6.5 L 0.8090149760246277 6.5 L 3.5 1.118029952049255 L 6.190985202789307 6.5 Z" stroke="none"/>
+        <path d="M 3.5 2.236070156097412 L 1.618034839630127 6 L 5.381965160369873 6 L 3.5 2.236070156097412 M 3.5 0 L 7 7 L 0 7 L 3.5 0 Z" stroke="none" fill="#707070"/>
+      </g>
+    </g>
+    <text id="Yes" transform="translate(502 534)" fill="#fff" font-size="14" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="0" y="0">Yes</tspan></text>
+    <text id="Finished_all_sections_" data-name="Finished all sections?" transform="translate(715 405)" fill="#fff" font-size="14" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="-64.708" y="0">Finished all sections?</tspan></text>
+    <text id="There_are_10_domains_that_the_user_has_to_go_through" data-name="There are 10 domains that the user has to go through" transform="translate(104 362)" fill="#fff" font-size="14" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="13.356" y="14">There are 10 </tspan><tspan x="0.511" y="34">domains that the </tspan><tspan x="9.586" y="54">user has to go </tspan><tspan x="28.15" y="74">through</tspan></text>
+  </g>
+</svg>
