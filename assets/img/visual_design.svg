@@ -1,27 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1015" height="451" viewBox="0 0 1015 451">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1015.5" height="453" viewBox="0 0 1015.5 453">
   <defs>
-    <filter id="Path_162" x="2.5" y="110" width="73.214" height="25.5" filterUnits="userSpaceOnUse">
+    <filter id="Path_162" x="0" y="112" width="74" height="25.5" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="0.5" result="blur"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="Path_162-2" x="270.5" y="110" width="73.214" height="25.5" filterUnits="userSpaceOnUse">
+    <filter id="Path_162-2" x="228" y="112" width="74" height="25.5" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="0.5" result="blur-2"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur-2"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="Path_162-3" x="141.5" y="110" width="73.214" height="25.5" filterUnits="userSpaceOnUse">
+    <filter id="Path_162-3" x="114" y="112" width="74" height="25.5" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="0.5" result="blur-3"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur-3"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="Rectangle_3" x="523.5" y="323.5" width="127" height="127" filterUnits="userSpaceOnUse">
+    <filter id="Rectangle_3" x="524" y="325.5" width="127" height="127" filterUnits="userSpaceOnUse">
       <feOffset dy="5" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="2.5" result="blur-4"/>
       <feFlood flood-opacity="0.161"/>
@@ -38,27 +38,27 @@
     <linearGradient id="linear-gradient-2" x1="0.217" y1="0.159" x2="0.762" y2="0.968" xlink:href="#linear-gradient"/>
     <linearGradient id="linear-gradient-3" x1="0.249" y1="0.075" x2="0.794" y2="0.883" xlink:href="#linear-gradient"/>
   </defs>
-  <g id="Visual_Design_Section" data-name="Visual Design Section" transform="translate(-83 -1719)">
+  <g id="Visual_Design_Section" data-name="Visual Design Section" transform="translate(-82.5 -1717)">
     <g id="Color_Palette" data-name="Color Palette" transform="translate(84 1724)">
-      <text id="Color_Palette-2" data-name="Color Palette" transform="translate(0 19)" fill="#737373" font-size="19" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Color Palette</tspan></text>
-      <g id="Color_Palette-3" data-name="Color Palette" transform="translate(3 49)">
+      <text id="Color_Palette-2" data-name="Color Palette" transform="translate(0 19)" fill="#737373" font-size="20" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Color Palette</tspan></text>
+      <g id="Color_Palette-3" data-name="Color Palette" transform="translate(0 49)">
         <rect id="Rectangle_16" data-name="Rectangle 16" width="71" height="77" rx="10" fill="#00b1ff"/>
-        <g transform="matrix(1, 0, 0, 1, -4, -54)" filter="url(#Path_162)">
-          <path id="Path_162-4" data-name="Path 162" d="M0,0H70.214V12c0,4.971-3.674,9-8.207,9H8.207C3.674,21,0,16.971,0,12Z" transform="translate(4 110)" fill="#fff"/>
+        <g transform="matrix(1, 0, 0, 1, -1.5, -56)" filter="url(#Path_162)">
+          <path id="Path_162-4" data-name="Path 162" d="M0,0H71V12c0,4.971-3.715,9-8.3,9H8.3C3.715,21,0,16.971,0,12Z" transform="translate(1.5 112)" fill="#fff"/>
         </g>
-        <text id="_00B1FF" data-name="#00B1FF" transform="translate(33 68)" fill="#737373" font-size="6" font-family="Lato-Regular, Lato"><tspan x="-12.292" y="0">#00B1FF</tspan></text>
+        <text id="_00B1FF" data-name="#00B1FF" transform="translate(36 69)" fill="#737373" font-size="6" font-family="Lato-Regular, Lato"><tspan x="-12.292" y="0">#00B1FF</tspan></text>
       </g>
-      <g id="Color_Palette-4" data-name="Color Palette" transform="translate(271 49)">
+      <g id="Color_Palette-4" data-name="Color Palette" transform="translate(228 49)">
         <rect id="Rectangle_16-2" data-name="Rectangle 16" width="71" height="77" rx="10" fill="#e5e5e5"/>
-        <g transform="matrix(1, 0, 0, 1, -272, -54)" filter="url(#Path_162-2)">
-          <path id="Path_162-5" data-name="Path 162" d="M0,0H70.214V12c0,4.971-3.674,9-8.207,9H8.207C3.674,21,0,16.971,0,12Z" transform="translate(272 110)" fill="#fff"/>
+        <g transform="matrix(1, 0, 0, 1, -229.5, -56)" filter="url(#Path_162-2)">
+          <path id="Path_162-5" data-name="Path 162" d="M0,0H71V12c0,4.971-3.715,9-8.3,9H8.3C3.715,21,0,16.971,0,12Z" transform="translate(229.5 112)" fill="#fff"/>
         </g>
         <text id="_E5E5E5" data-name="#E5E5E5" transform="translate(33 68)" fill="#737373" font-size="6" font-family="Lato-Regular, Lato"><tspan x="-12.157" y="0">#E5E5E5</tspan></text>
       </g>
-      <g id="Color_Palette-5" data-name="Color Palette" transform="translate(142 49)">
+      <g id="Color_Palette-5" data-name="Color Palette" transform="translate(114 49)">
         <rect id="Rectangle_16-3" data-name="Rectangle 16" width="71" height="77" rx="10" fill="#4b4b4b"/>
-        <g transform="matrix(1, 0, 0, 1, -143, -54)" filter="url(#Path_162-3)">
-          <path id="Path_162-6" data-name="Path 162" d="M0,0H70.214V12c0,4.971-3.674,9-8.207,9H8.207C3.674,21,0,16.971,0,12Z" transform="translate(143 110)" fill="#fff"/>
+        <g transform="matrix(1, 0, 0, 1, -115.5, -56)" filter="url(#Path_162-3)">
+          <path id="Path_162-6" data-name="Path 162" d="M0,0H71V12c0,4.971-3.715,9-8.3,9H8.3C3.715,21,0,16.971,0,12Z" transform="translate(115.5 112)" fill="#fff"/>
         </g>
         <text id="_4B4B4B" data-name="#4B4B4B" transform="translate(33 68)" fill="#737373" font-size="6" font-family="Lato-Regular, Lato"><tspan x="-12.778" y="0">#4B4B4B</tspan></text>
       </g>
@@ -80,7 +80,7 @@
       </g>
     </g>
     <g id="Components" transform="translate(614.171 1719)">
-      <text id="Components-2" data-name="Components" transform="translate(-0.171 18)" fill="#737373" font-size="18" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Components</tspan></text>
+      <text id="Components-2" data-name="Components" transform="translate(-0.171 18)" fill="#737373" font-size="20" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Components</tspan></text>
       <text id="One_of_the_questions_on_the_survey_asks_how_many_times_an_individual_has_published_a_creative_piece._Instead_of_having_the_user_manually_type_the_number_I_ve_implemented_an_input_stepper_with_the_default_value_of_0._" data-name="One of the questions on the survey asks how 
 many times an individual has published a creative 
 piece. Instead of having the user manually type 
@@ -107,8 +107,8 @@ with the default value of 0. " transform="translate(197.829 47)" fill="#737373" 
         <text id="_0" data-name="0" transform="translate(16 55)" fill="#4b4b4b" font-size="51" font-family="RoundedMplus1c-Bold, 'Rounded Mplus 1c Bold'" font-weight="700"><tspan x="-16.32" y="0">0</tspan></text>
       </g>
       <g id="Full_Panel" data-name="Full Panel" transform="translate(-0.171 326)">
-        <g transform="matrix(1, 0, 0, 1, -531, -326)" filter="url(#Rectangle_3)">
-          <g id="Rectangle_3-2" data-name="Rectangle 3" transform="translate(531 326)" fill="#fff" stroke="#e5e5e5" stroke-width="2">
+        <g transform="matrix(1, 0, 0, 1, -531.5, -328)" filter="url(#Rectangle_3)">
+          <g id="Rectangle_3-2" data-name="Rectangle 3" transform="translate(531.5 328)" fill="#fff" stroke="#e5e5e5" stroke-width="2">
             <rect width="112" height="112" rx="10" stroke="none"/>
             <rect x="1" y="1" width="110" height="110" rx="9" fill="none"/>
           </g>

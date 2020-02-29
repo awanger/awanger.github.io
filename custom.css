@@ -186,3 +186,12 @@ footer {
      }
 }
 
+body {
+    transition: 0.5s;
+    opacity: 1;
+  }
+  
+  body.fade {
+      opacity: 0;
+      transition: none;
+  }
