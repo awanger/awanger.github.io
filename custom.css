@@ -119,6 +119,7 @@ a:hover {
 
 .project-title {
     font-size: 40px;
+    /* font-weight: 800; */
 } @media screen and (max-width: 575px) {
     .project-title { 
         font-size: 24px;
