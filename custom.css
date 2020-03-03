@@ -145,11 +145,16 @@ a:hover {
 
 .fit-parent {
     width: 100%;
+    height: 100%;
     /* object-fit: fill; */
 }
 
 .fit-parent.shrink {
-    max-width: 800px;
+    max-width: 75%;
+}
+
+.fit-parent.expand {
+    width: 120%;
 }
 
 .project-description {
@@ -178,6 +183,14 @@ a:hover {
 .image-container {
     max-width: 1200px;
     text-align: center;
+}
+
+.image-caption {
+
+}
+
+.image-container.background-fill{
+    background-color: #FAFAFA;
 }
 
 
