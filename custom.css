@@ -145,10 +145,12 @@ a:hover {
 
 .fit-parent {
     width: 100%;
-    height: 100%;
     /* object-fit: fill; */
 }
 
+.fit-parent.shrink {
+    max-width: 800px;
+}
 
 .project-description {
     background-color: #FFFFFF;
@@ -170,10 +172,12 @@ a:hover {
 
 .text-container {
     max-width: 600px;
-    margin: 5em auto;
+    margin: 3em auto;
 }
 
-.project-text {
+.image-container {
+    max-width: 1200px;
+    text-align: center;
 }
 
 
