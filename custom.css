@@ -27,8 +27,8 @@ body {
 }
 
 .title1 {
-    font-weight: 700;
-    font-size: 72px;
+    font-weight: 550;
+    font-size: 76px;
     margin-top: 60px;
 }   @media screen and (max-width: 575px) {
         .title1 { 
@@ -48,17 +48,9 @@ body {
 }
 
 .blurb {    
-    font-weight: 300;
+    font-weight: 500;
+    max-width: 800px;
 } 
-
-
-a, a:hover {
-    color: inherit;
-}
-
-a:hover {
-    text-decoration: none;
-}
 
 .navbar-brand {
     font-size: 12px;
@@ -89,6 +81,11 @@ a:hover {
     }
 }
 
+.jumbotron > .container {
+    text-align: left;
+    /* max-width: 600px; */
+}
+
 .btn {
     margin-right: 12px;
 }
@@ -102,10 +99,6 @@ a:hover {
     padding-top: 40px;
     margin-bottom: 50px;
 }
-
-/* .portfolio-content {
-    
-} */
 
 /* .project-container {
     display: grid;
@@ -155,13 +148,13 @@ a:hover {
 }
 
 
-/* .project-link, .project-link:hover {
+.project-link, .project-link:hover {
     color: inherit;
 }
 
 .project-link:hover {
     text-decoration: none;
-} */
+}
 
 
 .fit-parent {
