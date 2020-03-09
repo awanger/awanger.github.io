@@ -60,6 +60,19 @@ a:hover {
     text-decoration: none;
 }
 
+.navbar-brand {
+    font-size: 12px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+    letter-spacing: 2px;
+    margin: 0.5em 0;
+}
+
+.navbar-brand:hover {
+    
+    opacity: 1;
+}
 
 /* Navbar */
 .bg-dark {
@@ -90,9 +103,9 @@ a:hover {
     margin-bottom: 50px;
 }
 
-.portfolio-content {
+/* .portfolio-content {
     
-}
+} */
 
 /* .project-container {
     display: grid;
