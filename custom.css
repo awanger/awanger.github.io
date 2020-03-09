@@ -114,22 +114,21 @@ a:hover {
     
 } */
 
-.box:hover {
-    box-shadow: 0 10px 20px #c7cad1;
-    -webkit-transform: translate(0, -5px);
-            transform: translate(0, -5px);
-}
-
-
 .box {
     margin-bottom: 6em;
-    transition: all 0.2s ease;
+    transition: all 0.5s ease;
     /* max-height: 340px; */
 } @media screen and (max-width: 575px) {
     .box { 
         box-shadow: 0 10px 20px #c7cad1;
         margin: 0px 25px 75px 25px;
      }
+}
+
+.box:hover {
+    box-shadow: 0 10px 20px #c7cad1;
+    -webkit-transform: translate(0, -4px);
+            transform: translate(0, -4px);
 }
 
 
@@ -156,6 +155,15 @@ a:hover {
 }
 
 
+/* .project-link, .project-link:hover {
+    color: inherit;
+}
+
+.project-link:hover {
+    text-decoration: none;
+} */
+
+
 .fit-parent {
     width: 100%;
     height: 100%;
@@ -170,7 +178,6 @@ a:hover {
     width: 120%;
 }
 
-
 #peterson-pdf {
     margin-top: 15px;
     box-shadow: 0 2px 5px #c7cad1;
@@ -179,8 +186,6 @@ a:hover {
 .project-description {
     background-color: #FFFFFF;
 }
-
-
 
 .subheading {
     color: #7D7D80;
@@ -192,8 +197,6 @@ a:hover {
     .subheading { margin-bottom: 24px; }
 }
 
-
-
 .text-container {
     max-width: 600px;
     margin: 3em auto;
@@ -203,7 +206,6 @@ a:hover {
     max-width: 1200px;
     text-align: center;
     padding-bottom: 15px;
-    
 }
 
 .image-caption {
