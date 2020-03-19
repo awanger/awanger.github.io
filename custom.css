@@ -43,6 +43,10 @@ body {
         .title2 { font-size: 20px; }
 }
 
+a {
+    color: #09f;
+}
+
 #contact-links {
     margin-top: 80px;
 }
@@ -73,8 +77,8 @@ body {
 
 /* Hero section */
 .jumbotron {
-    height: 100vh;
-    background-color: #FFFFFF;
+    height: 90vh;
+    background-color: #ffffff;
 } @media screen and (max-width: 575px) {
     .jumbotron {
         height: 60vh;
@@ -110,7 +114,6 @@ body {
 .box {
     margin-bottom: 6em;
     transition: all 0.5s ease;
-    /* max-height: 340px; */
 } @media screen and (max-width: 575px) {
     .box { 
         box-shadow: 0 10px 20px #c7cad1;
