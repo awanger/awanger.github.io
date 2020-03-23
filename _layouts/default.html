@@ -2,12 +2,7 @@
 <html lang="en">
   {% include head.html %}
   <body>
-    <!-- <script>document.body.classList.add('fade');</script> -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">Alex Wang</a>
-      </div>
-    </nav>
+    {% include header.html %}
     <div class="jumbotron">
       <div class="container">
         <h1 class="title1">Hi, I'm Alex</h1>
@@ -68,23 +63,6 @@
         </div>
       </div>
     </section>
-    <footer>
-      <div class="container">
-        <div class="footer-content">
-          <div class="info">
-            <div><a href="#">&copy; Alex Wang</a></div>
-            <div class="copyright2">Handcrafted with love <i class="fa fa-heart"></i></div>
-            <div class="contact">
-              <a href="">
-                <div class="footer-button"><img src=""></div>
-              </a>
-              <a href="" >
-                <div class="footer-button"><img src=""></div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+    {% include footer.html %}
   </body>
 </html>
