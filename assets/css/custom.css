@@ -92,6 +92,7 @@ a {
 
 .btn {
     margin-right: 12px;
+    border-radius: 0;
 }
 
 /* Content */
