@@ -1,5 +1,13 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container">
-    <a class="navbar-brand" href={% link index.html %}>Alex Wang</a>
-  </div>
-</nav>
+<header class="header">
+  <a class="navbar-brand" href={% link index.html %}>Alex Wang</a>
+  <nav class="navbar">
+    <input type="checkbox" id="toggle">
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Work</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <label for="toggle" class="hamburger"><i class="fa fa-bars"></i></label>
+</header>

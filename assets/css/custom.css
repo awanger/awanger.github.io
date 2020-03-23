@@ -1,26 +1,75 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
 
-/* Override some Bootstrap grid system stuff */
-
-/* you might need to make this selector more specific */
-.col-md-6 {
-    padding-right: 0px;
-    padding-left: 0px;
-}
-
-.container {
-    max-width: 1160px;
-    margin: 0 auto;
-    padding: 0 4%;
-}
-
-/* Global font style */
 body {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     color: #4b4b4b;
     background-color: #FAFAFA;
 }
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    max-width:1000px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/* Navbar mobile layout */
+.header {
+    background-color: #0A0A0A;
+}
+
+.navbar {
+    padding: 10px;
+}
+
+.nav-links {
+    text-align: center;
+    display: none;
+}
+
+.nav-links > li {
+    margin-bottom: 10px;
+}
+
+/* checkbox - needs to be hidden */
+#toggle {
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    display: none;
+}
+
+#toggle:checked + .nav-links {
+    display: block;
+}
+
+.hamburger {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+.navbar-brand {
+    font-size: 12px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+    letter-spacing: 2px;
+    margin: 0.5em 0;
+}
+
+.navbar-brand:hover {
+    opacity: 1;
+}
+
 
 .title1, title2 {
     font-family: 'Lato', sans-serif;
@@ -29,11 +78,11 @@ body {
 .title1 {
     font-weight: 550;
     font-size: 76px;
-    margin-top: 60px;
+    /* margin-top: 60px; */
 }   @media screen and (max-width: 575px) {
         .title1 { 
             font-size: 40px;
-            margin-top: 30px;
+            /* margin-top: 30px; */
         }
     }
 
@@ -55,25 +104,6 @@ a {
     font-weight: 500;
     max-width: 800px;
 } 
-
-.navbar-brand {
-    font-size: 12px;
-    text-transform: uppercase;
-    opacity: 0.5;
-    transition: opacity 0.5s ease;
-    letter-spacing: 2px;
-    margin: 0.5em 0;
-}
-
-.navbar-brand:hover {
-    
-    opacity: 1;
-}
-
-/* Navbar */
-.bg-dark {
-    background-color: #0A0A0A !important;
-}
 
 /* Hero section */
 .jumbotron {
