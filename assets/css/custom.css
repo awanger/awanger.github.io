@@ -26,6 +26,7 @@ a {
 /* Navbar mobile layout */
 .navbar {
     background-color: #0A0A0A;
+    height: 100%;
     padding: 1rem 1rem;
 }
 
@@ -35,6 +36,7 @@ a {
     padding-top: 1em;
     padding-bottom: 0.25rem;
     display: none;
+    user-select: none; 
 }
 
 .nav-links > li {
@@ -262,13 +264,3 @@ footer {
         text-align: center;
      }
 }
-
-body {
-    transition: 0.5s;
-    opacity: 1;
-  }
-  
-  body.fade {
-      opacity: 0;
-      transition: none;
-  }
