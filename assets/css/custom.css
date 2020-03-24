@@ -17,9 +17,9 @@ a {
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 1160px;
     margin: 0 auto;
-    padding: 0 4%;
+    padding: 0 2%;
 }
 
 header {
@@ -29,6 +29,7 @@ header {
 /* Navbar mobile layout */
 .navbar {
     padding: 1.2rem 1rem;
+    width: 100%;
 }
 
 
@@ -126,7 +127,7 @@ header {
 .title1 {
     font-weight: 550;
     font-size: 76px;
-    /* margin-top: 60px; */
+    margin-bottom: 0.25em;
 }   @media screen and (max-width: 575px) {
         .title1 { 
             font-size: 40px;
@@ -148,12 +149,14 @@ header {
 .blurb {    
     font-weight: 500;
     max-width: 800px;
+    line-height: 1.5em;
 } 
 
 /* Hero section */
 .jumbotron {
-    height: 90vh;
+    height: calc(100vh - 50px);
     background-color: #ffffff;
+    padding-top: 124px;
 } @media screen and (max-width: 575px) {
     .jumbotron {
         height: 60vh;
