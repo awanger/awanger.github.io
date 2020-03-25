@@ -10,16 +10,19 @@ body {
     background-color: #FAFAFA;
 }
 
-
 a {
     color: #09f;
     text-decoration: none;
 }
 
+p {
+    line-height: 1.3rem;
+}
+
 .container {
     max-width: 1160px;
     margin: 0 auto;
-    padding: 0 2%;
+    padding: 0 6%;
 }
 
 header {
@@ -28,7 +31,7 @@ header {
 
 /* Navbar mobile layout */
 .navbar {
-    padding: 1.2rem 1rem;
+    padding: 1.3rem 0;
     width: 100%;
 }
 
@@ -156,7 +159,7 @@ header {
 .jumbotron {
     height: calc(100vh - 50px);
     background-color: #ffffff;
-    padding-top: 124px;
+    padding-top: 15vh;
 } @media screen and (max-width: 575px) {
     .jumbotron {
         height: 60vh;
