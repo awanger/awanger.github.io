@@ -11,7 +11,7 @@ body {
 }
 
 a {
-    color: #09f;
+    color: inherit;
     text-decoration: none;
 }
 
@@ -45,8 +45,8 @@ header {
 }
 
 .nav-link {
-    text-transform: uppercase;
-    font-size: 0.75rem;
+    text-transform: lowercase;
+    font-size: 0.8rem;
     margin-bottom: 10px;
 }
 
@@ -129,11 +129,11 @@ header {
 
 .title1 {
     font-weight: 550;
-    font-size: 76px;
+    font-size: 80px;
     margin-bottom: 0.25em;
 }   @media screen and (max-width: 575px) {
         .title1 { 
-            font-size: 40px;
+            font-size: 42px;
             /* margin-top: 30px; */
         }
     }
@@ -146,8 +146,21 @@ header {
 
 
 #contact-links {
-    margin-top: 80px;
+    /* margin-top: 80px; */
+    margin-top: 1em;
 }
+
+#contact-links > a {
+    font-size: 1.25em;
+    margin-right: 0.5em;
+    /* transition: opacity 0.5s ease; */
+    opacity: 0.75;
+}
+
+#contact-links > a:hover {
+    opacity: 1;
+}
+
 
 .blurb {    
     font-weight: 500;
