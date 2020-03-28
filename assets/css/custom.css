@@ -199,11 +199,6 @@ header {
     margin-bottom: 50px;
 }
 
-
-.fit-parent {
-    width: 100%;
-}
-
 .project-container {
     margin-bottom: 6em;
     height: 340px;
@@ -236,6 +231,10 @@ header {
 .project-preview {
     flex-basis: 50%;
     overflow: hidden;  
+}
+
+.project-preview > img {
+    width: 100%;
 }
 
 .project-content {
