@@ -128,7 +128,7 @@ header {
 }
 
 .title1 {
-    font-weight: 550;
+    font-weight: 600;
     font-size: 80px;
     margin-bottom: 0.25em;
 }   @media screen and (max-width: 575px) {
@@ -144,6 +144,24 @@ header {
         .title2 { font-size: 20px; }
 }
 
+.title2 > h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.title2 > .blurb {
+    margin-top: 0.5rem;
+    font-size: 1.25rem;
+    max-width: 700px;
+    line-height: 1.4em;
+    font-weight: 300;
+}
+
+.blurb > a {
+    text-decoration: underline;
+    color: #0099FF;
+}
+
 
 #contact-links {
     /* margin-top: 80px; */
@@ -151,7 +169,7 @@ header {
 }
 
 #contact-links > a {
-    font-size: 1.25em;
+    font-size: 1.4em;
     margin-right: 0.5em;
     /* transition: opacity 0.5s ease; */
     opacity: 0.75;
@@ -160,13 +178,6 @@ header {
 #contact-links > a:hover {
     opacity: 1;
 }
-
-
-.blurb {    
-    font-weight: 500;
-    max-width: 800px;
-    line-height: 1.5em;
-} 
 
 /* Hero section */
 .jumbotron {
@@ -182,11 +193,6 @@ header {
 .jumbotron > .container {
     text-align: left;
     /* max-width: 600px; */
-}
-
-.btn {
-    margin-right: 12px;
-    border-radius: 0;
 }
 
 /* Content */
