@@ -196,6 +196,13 @@ header {
     /* max-width: 600px; */
 }
 
+/* GitHub ribbon */
+.ribbon {
+    position:absolute;
+    top:54; /* height of the navbar in order to offset */
+    right:0;
+}
+
 /* Content */
 .section-header {
     font-size: 12px;
