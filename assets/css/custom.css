@@ -17,6 +17,7 @@ a {
 
 p {
     line-height: 1.3rem;
+    font-size: 1rem;
 }
 
 .container {
@@ -47,13 +48,13 @@ header {
 .nav-link {
     text-transform: lowercase;
     font-size: 0.8rem;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .nav-link > a {
     color: #fff;
     opacity: 0.5;
-    transition: opacity 0.2s ease;
+    transition: opacity 0.1s ease;
     letter-spacing: 2px;
 }
 
@@ -75,7 +76,7 @@ header {
 
 .hamburger {
     position: absolute;
-    top: 12px;
+    top: 16px;
     right: 10px;
     font-size: 24px;
     color: #fff;
@@ -113,7 +114,7 @@ header {
     .nav-list {
         display: flex;
         justify-content: space-between;
-        width: 300px;
+        width: 200px;
         padding: 0;
     }
 
@@ -202,7 +203,7 @@ header {
     color: grey;
     text-transform: uppercase;
     padding-top: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 
@@ -212,7 +213,7 @@ header {
 
 .project-container {
     margin-bottom: 6em;
-    height: 340px;
+    height: 350px;
     transition: all 0.5s ease;
     display: flex;
 } @media screen and (max-width: 575px) {
@@ -231,13 +232,13 @@ header {
 
 .project-title {
     font-size: 40px;
-    /* font-weight: 800; */
+    margin-bottom: 1rem;
+    font-weight: 550;
 } @media screen and (max-width: 575px) {
     .project-title { 
         font-size: 24px;
     }
 }
-
 
 .project-preview {
     flex-basis: 50%;
@@ -251,7 +252,7 @@ header {
 
 .subtitle {
     color: #7D7D80;
-    font-size: 13px;
+    font-size: 0.75rem;
     letter-spacing: 1px;
     margin-bottom: 56px;
 } @media screen and (max-width: 575px) {
@@ -287,8 +288,12 @@ header {
 }
 
 .text-container {
-    max-width: 600px;
+    max-width: 750px;
     margin: 3em auto;
+}
+
+.project-text {
+    line-height: 23px;
 }
 
 .image-container {
