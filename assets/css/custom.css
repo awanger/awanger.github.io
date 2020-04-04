@@ -135,12 +135,15 @@ header {
 .jumbotron {
     height: calc(80vh - 50px);
     background-color: #ffffff;
-    padding: 8% 14%;
-
+    
 } @media screen and (max-width: 575px) {
     .jumbotron {
         height: 60vh;
     }
+}
+
+.jumbo-container {
+    padding: 8% 14%;
 }
 
 .title {
