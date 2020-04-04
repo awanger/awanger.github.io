@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap');
 
 body {
     font-family: 'Lato', sans-serif;
@@ -130,37 +131,33 @@ header {
     }
 }
 
+/* Hero section */
+.jumbotron {
+    height: calc(80vh - 50px);
+    background-color: #ffffff;
+    padding: 8% 14%;
 
-.title1, title2 {
-    font-family: 'Lato', sans-serif;
+} @media screen and (max-width: 575px) {
+    .jumbotron {
+        height: 60vh;
+    }
 }
 
-.title1 {
-    font-weight: 600;
-    font-size: 80px;
-    margin-bottom: 0.25em;
+.title {
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-size: 72px;
+    /* margin-bottom: 0.25em; */
 }   @media screen and (max-width: 575px) {
-        .title1 { 
+        .title { 
             font-size: 42px;
             /* margin-top: 30px; */
         }
     }
 
-.title2 {
-    font-size: 20px;
-}   @media screen and (max-width: 575px) {
-        .title2 { font-size: 20px; }
-}
-
-.title2 > h2 {
-    font-size: 32px;
-    font-weight: 500;
-}
-
-.title2 > .blurb {
-    margin-top: 0.5rem;
-    font-size: 1.25rem;
-    max-width: 700px;
+.blurb {
+    font-size: 1.75rem;
+    margin-top: 0.75rem;
     line-height: 1.4em;
     font-weight: 300;
 }
@@ -170,9 +167,7 @@ header {
     color: #0099FF;
 }
 
-
 #contact-links {
-    /* margin-top: 80px; */
     margin-top: 1em;
 }
 
@@ -187,21 +182,7 @@ header {
     opacity: 1;
 }
 
-/* Hero section */
-.jumbotron {
-    height: calc(80vh - 50px);
-    background-color: #ffffff;
-    padding-top: 15vh;
-} @media screen and (max-width: 575px) {
-    .jumbotron {
-        height: 60vh;
-    }
-}
 
-.jumbotron > .container {
-    text-align: left;
-    /* max-width: 600px; */
-}
 
 /* GitHub ribbon */
 .ribbon {
@@ -219,7 +200,6 @@ header {
     padding-top: 40px;
     margin-bottom: 30px;
 }
-
 
 .fit-parent {
     width: 100%;
