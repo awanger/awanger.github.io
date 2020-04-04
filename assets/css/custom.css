@@ -64,7 +64,7 @@ header {
 }
 
 .nav-link > a:hover {
-    opacity: 1.0;
+    opacity: 1;
 }
 
 /* checkbox - needs to be hidden */
