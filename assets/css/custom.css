@@ -166,10 +166,10 @@ header {
     font-weight: 300;
 }
 
-/* .highlight {
+.highlight {
     text-decoration: underline;
     color: #0099FF;
-} */
+}
 
 #contact-links {
     margin-top: 1em;
@@ -210,7 +210,7 @@ header {
 }
 
 .project-container {
-    margin-bottom: 6em;
+    margin: 4em 0;
     height: 350px;
     transition: all 0.5s ease;
     display: flex;
