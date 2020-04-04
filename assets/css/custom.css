@@ -160,15 +160,16 @@ header {
 
 .blurb {
     font-size: 1.75rem;
+    color: #4b4b4b;
     margin-top: 0.75rem;
     line-height: 1.4em;
     font-weight: 300;
 }
 
-.highlight {
+/* .highlight {
     text-decoration: underline;
     color: #0099FF;
-}
+} */
 
 #contact-links {
     margin-top: 1em;
@@ -228,9 +229,10 @@ header {
 
 
 .project-title {
+    font-family: 'Merriweather', serif;
     font-size: 2.4rem;
     margin-bottom: 1rem;
-    font-weight: 550;
+    font-weight: 400;
 } @media screen and (max-width: 575px) {
     .project-title { 
         font-size: 24px;
@@ -250,6 +252,7 @@ header {
 .subtitle {
     color: #7D7D80;
     font-size: 0.75rem;
+    font-weight: 400;
     letter-spacing: 1px;
     margin-bottom: 56px;
 } @media screen and (max-width: 575px) {
@@ -273,7 +276,7 @@ header {
 .project-content {
     background-color: #FFFFFF;
 }
-
+/* 
 .subheading {
     color: #7D7D80;
     text-transform: uppercase;
@@ -282,16 +285,17 @@ header {
     margin-bottom: 5px;
 } @media screen and (max-width: 575px) {
     .subheading { margin-bottom: 24px; }
-}
+} */
 
 .text-container {
     max-width: 750px;
     margin: 3em auto;
 }
 
-/* .project-text, .project-description {
+.project-description {
     line-height: 23px;
-} */
+    font-weight: 300;
+}
 
 .image-container {
     max-width: 1200px;
