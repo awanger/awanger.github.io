@@ -57,7 +57,7 @@ header {
 
 .nav-link {
     text-transform: lowercase;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 300;
     margin-bottom: 12px;
 }
@@ -126,7 +126,7 @@ header {
     .nav-list {
         display: flex;
         justify-content: space-between;
-        width: 250px;
+        width: 200px;
         padding: 0;
     }
 
