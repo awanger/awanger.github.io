@@ -7,6 +7,11 @@ body {
     color: #000;
 }
 
+#portfolio-content {
+    background-color: #FAFAFA;
+    padding: 1em 0;
+}
+
 a {
     color: inherit;
     text-decoration: none;
@@ -132,8 +137,8 @@ header {
 
 /* Hero section */
 .jumbotron {
-    height: calc(80vh - 50px);
-    background-color: #ffffff;
+    height: calc(75vh - 50px);
+    background-color: #fff;
     
 } @media screen and (max-width: 575px) {
     .jumbotron {
@@ -241,7 +246,7 @@ header {
 
 .project-preview {
     flex-basis: 50%;
-    overflow: hidden;  
+    overflow: hidden;
 }
 
 .project-content {
@@ -328,10 +333,10 @@ header {
     grid-gap: 1em;
 }
 
+/* FYI a box has width of 240px */
 .box {
     border: 1px solid #000;
-    width: 225px;
-    height: 185px;
+    height: 183px;
 }
 
 /* Footer */
