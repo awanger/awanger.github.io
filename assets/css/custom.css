@@ -126,7 +126,7 @@ header {
     .nav-list {
         display: flex;
         justify-content: space-between;
-        width: 300px;
+        width: 250px;
         padding: 0;
     }
 
@@ -188,15 +188,6 @@ header {
 
 #contact-links > a:hover {
     opacity: 1;
-}
-
-
-
-/* GitHub ribbon */
-.ribbon {
-    position:absolute;
-    top:54; /* height of the navbar in order to offset */
-    right:0;
 }
 
 /* Content */
