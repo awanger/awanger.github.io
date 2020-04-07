@@ -4,10 +4,26 @@
       <label for="toggle" class="hamburger"><i class="fa fa-bars"></i></label>
       <input type="checkbox" id="toggle">
       <ul class="nav-list">
-        <li class="nav-link"><a href="#portfolio-content">projects</a></li>
+        <li class="nav-link"><a href="/#portfolio-content">projects</a></li>
         <li class="nav-link"><a href="https://drive.google.com/open?id=1Uee-mZR1SrHgk5Q34AWhYqOY4sIUCXVd" target="_blank">resume</a></li>
         <li class="nav-link"><a href="#">contact</a></li>
       </ul>
+      <div id="back" class="nav-link"><a href="/#portfolio-content">back</a></div>
     </nav>
   </div>
 </header>
+<script>
+  const currentPage = document.URL;
+  const navList = document.querySelector(".nav-list")
+  const backBtn = document.querySelector("#back");
+
+  function displayNavLinks() {
+    if (currentPage.includes("/projects")) {
+      navList.setAttribute("style", "display:none");
+      backBtn.setAttribute("style", "display:block");
+    }
+  }
+  
+  displayNavLinks();
+
+</script>

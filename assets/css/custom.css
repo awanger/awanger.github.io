@@ -135,9 +135,14 @@ header {
     }
 }
 
+
+#back {
+    display: none;
+}
+
 /* Hero section */
 .jumbotron {
-    height: calc(75vh - 50px);
+    height: calc(80vh - 50px);
     background-color: #fff;
     
 } @media screen and (max-width: 575px) {
