@@ -1,0 +1,4 @@
+collections:
+  microprojects:
+    output: true
+    permalink: /microprojects/:path/
