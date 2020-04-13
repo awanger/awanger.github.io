@@ -21,6 +21,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #0099ff;
+}
+
 p {
     font-size: 1rem;
     font-weight: 300;
@@ -76,6 +80,8 @@ header {
 .nav-link > a:hover {
     color: #0099ff;
 }
+
+
 
 #toggle {
     position: absolute;
@@ -287,6 +293,14 @@ header {
 .text-container {
     max-width: 750px;
     margin: 3em auto;
+}
+
+.center {
+    text-align: center;
+}
+
+#back-link {
+    font-weight: 300;
 }
 
 /* .project-text {
