@@ -147,7 +147,7 @@ header {
 /* Hero section */
 .jumbotron {
     height: 60vh;
-    background-color: #fff;
+    background-color: #fff; 
     
 } @media screen and (max-width: 575px) {
     .jumbotron {
