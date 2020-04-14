@@ -13,12 +13,15 @@ permalink: /projects/microcomponents-compilation
         </div>
         <div class="text-container">
             <div class="grid">
+                {% for microproject in site.microprojects %}
                 <div class="box">
-                    <a href="#">
-                        <img src="/assets/img/input_stepper.svg" alt="input-stepper">
+                    <a href={{ microproject.url }}>
+                        <img src={{microproject.img}} alt="input-stepper">
                     </a>
                 </div>
-                <div class="box">
+                {% endfor %}
+
+                <!-- <div class="box">
                     <a href="#">
                         <img src="/assets/img/progress_bar.svg" alt="progress-bar">
                     </a>
@@ -28,7 +31,7 @@ permalink: /projects/microcomponents-compilation
                 </div>
                 <div class="box">
                     <img src="/assets/img/toggle.svg" alt="nav-bar">
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="text-container center">
