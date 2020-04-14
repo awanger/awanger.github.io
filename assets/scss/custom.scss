@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+
+#portfolio-content {
+    background-color: #FAFAFA;
+    padding: 1em 0;
+}
+
+h1 {
+    font-size: 1.75rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0099ff;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 23px;
+}
+
+
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+
+/* Navbar mobile layout */
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.navbar {
+    padding: 1.3rem 0;
+    width: 100%;
+}
+
+.nav-list {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0.25rem;
+    display: none;
+    user-select: none; 
+}
+
+.nav-link {
+    text-transform: lowercase;
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+
+.nav-link > a {
+    color: #4b4b4b;
+    opacity: 0.75;
+    transition: opacity 0.1s ease;
+    letter-spacing: 1px;
+}
+
+.nav-link > a:hover {
+    color: #0099ff;
+}
+
+
+
+#toggle {
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    display: none; /* checkbox - needs to be hidden */
+}
+
+#toggle:checked + .nav-list {
+    display: block;
+}
+
+.hamburger {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #000;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+.navbar-brand {
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+    letter-spacing: 2px;
+}
+
+.navbar-brand:hover {
+    opacity: 1;
+}
+
+/* Navbar desktop version */
+@media screen and (min-width: 750px) {
+    header {
+        border-bottom: none;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .nav-list {
+        display: flex;
+        justify-content: space-between;
+        width: 200px;
+        padding: 0;
+    }
+
+    .nav-link {
+        margin: 0;
+    }
+}
+
+
+#back {
+    display: none;
+}
+
+/* Hero section */
+.jumbotron {
+    height: 60vh;
+    background-color: #fff; 
+    
+} @media screen and (max-width: 575px) {
+    .jumbotron {
+        height: 60vh;
+    }
+}
+
+.jumbo-container {
+    padding: 8% 14%;
+}
+
+.title {
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-size: 72px;
+    /* margin-bottom: 0.25em; */
+}   @media screen and (max-width: 575px) {
+        .title { 
+            font-size: 42px;
+            /* margin-top: 30px; */
+        }
+    }
+
+.blurb {
+    font-size: 1.75rem;
+    color: #4b4b4b;
+    margin-top: 0.75rem;
+    line-height: 1.4em;
+    font-weight: 300;
+}
+
+.highlight {
+    text-decoration: underline;
+    color: #0099FF;
+}
+
+#contact-links {
+    margin-top: 1em;
+}
+
+#contact-links > a {
+    font-size: 2rem;
+    margin-right: 0.5em;
+    /* transition: opacity 0.5s ease; */
+    opacity: 0.75;
+}
+
+#contact-links > a:hover {
+    color: #0099FF;
+}
+
+/* Content */
+.section-header {
+    font-size: 12px;
+    font-weight: 400;
+    color: grey;
+    text-transform: uppercase;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+
+.fit-parent {
+    width: 100%;
+}
+
+.project-container {
+    margin: 4em 0;
+    height: 350px;
+    transition: all 0.5s ease;
+    display: flex;
+    background-color: #FAFAFA;
+} @media screen and (max-width: 575px) {
+    .project-container { 
+        box-shadow: 0 10px 20px #c7cad1;
+        margin: 0px 25px 75px 25px;
+     }
+}
+
+.project-container:hover {
+    box-shadow: 0 10px 20px #c7cad1;
+    -webkit-transform: translate(0, -4px);
+            transform: translate(0, -4px);
+}
+
+
+.project-title {
+    font-family: 'Merriweather', serif;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+} @media screen and (max-width: 575px) {
+    .project-title { 
+        font-size: 24px;
+    }
+}
+
+.project-preview {
+    flex-basis: 50%;
+    overflow: hidden;
+}
+
+.project-content {
+    flex-basis: 50%;
+    padding: 40px;
+}
+
+.subtitle {
+    color: #7D7D80;
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 56px;
+    text-transform: uppercase;
+} @media screen and (max-width: 575px) {
+    .subtitle { margin-bottom: 24px; }
+}
+
+.project-link, .project-link:hover {
+    color: inherit;
+}
+
+.project-link:hover {
+    text-decoration: none;
+}
+
+#peterson-pdf {
+    margin-top: 15px;
+    box-shadow: 0 2px 5px #c7cad1;
+}
+
+.project-content {
+    background-color: #FFFFFF;
+}
+
+
+
+.text-container {
+    max-width: 750px;
+    margin: 3em auto;
+}
+
+.center {
+    text-align: center;
+}
+
+#back-link {
+    font-weight: 300;
+}
+
+/* .project-text {
+
+} */
+
+
+.project-text-heading {
+    color: #7D7D80;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+} @media screen and (max-width: 575px) {
+    .subheading { margin-bottom: 24px; }
+}
+
+.project-description {
+    line-height: 23px;
+    font-weight: 300;
+}
+
+.image-container {
+    max-width: 1200px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.image-caption {
+    font-style: italic;
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+.image-container.background-fill{
+    background-color: #FAFAFA;
+}
+
+
+/* CSS grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+}
+
+.box {
+    /* border: 1px solid #000; */
+    position: relative;
+    background-color: #F4F4F4;
+    width: 225px;
+    height: 185px;
+}
+
+.box > a > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+/* Footer */
+footer {
+    font-family: 'Merriweather', serif;
+    background-color: #FAFAFA;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+
+.footer-content {
+    text-align: center;
+}
