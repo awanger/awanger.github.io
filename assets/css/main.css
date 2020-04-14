@@ -87,15 +87,13 @@ header {
   font-size: 0.8rem;
   font-weight: 300;
   margin-bottom: 12px; }
-
-.nav-link > a {
-  color: #4b4b4b;
-  opacity: 0.75;
-  transition: opacity 0.1s ease;
-  letter-spacing: 1px; }
-
-.nav-link > a:hover {
-  color: #0099ff; }
+  .nav-link a {
+    color: #4b4b4b;
+    opacity: 0.75;
+    transition: opacity 0.1s ease;
+    letter-spacing: 1px; }
+  .nav-link a:hover {
+    color: #0099ff; }
 
 #toggle {
   position: absolute;
@@ -103,9 +101,8 @@ header {
   left: -100px;
   display: none;
   /* checkbox - needs to be hidden */ }
-
-#toggle:checked + .nav-list {
-  display: block; }
+  #toggle:checked + .nav-list {
+    display: block; }
 
 .hamburger {
   position: absolute;
@@ -123,9 +120,8 @@ header {
   opacity: 0.5;
   transition: opacity 0.5s ease;
   letter-spacing: 2px; }
-
-.navbar-brand:hover {
-  opacity: 1; }
+  .navbar-brand:hover {
+    opacity: 1; }
 
 /* Navbar desktop version */
 @media screen and (min-width: 750px) {

@@ -64,31 +64,29 @@ header {
     font-size: 0.8rem;
     font-weight: 300;
     margin-bottom: 12px;
+
+    a { 
+        color: #4b4b4b;
+        opacity: 0.75;
+        transition: opacity 0.1s ease;
+        letter-spacing: 1px;
+    }
+
+    a:hover {
+        color: $highlight;
+    }
 }
-
-.nav-link > a {
-    color: #4b4b4b;
-    opacity: 0.75;
-    transition: opacity 0.1s ease;
-    letter-spacing: 1px;
-}
-
-.nav-link > a:hover {
-    color: #0099ff;
-}
-
-
 
 #toggle {
     position: absolute;
     top: -100px;
     left: -100px;
     display: none; /* checkbox - needs to be hidden */
+    &:checked + .nav-list {
+        display: block;
+    }
 }
 
-#toggle:checked + .nav-list {
-    display: block;
-}
 
 .hamburger {
     position: absolute;
@@ -108,11 +106,12 @@ header {
     opacity: 0.5;
     transition: opacity 0.5s ease;
     letter-spacing: 2px;
+
+    &:hover {
+        opacity: 1;
+    }
 }
 
-.navbar-brand:hover {
-    opacity: 1;
-}
 
 /* Navbar desktop version */
 @media screen and (min-width: 750px) {
@@ -159,7 +158,6 @@ footer {
     padding-top: 10px;
     padding-bottom: 60px;
 }
-
 
 .footer-content {
     text-align: center;
