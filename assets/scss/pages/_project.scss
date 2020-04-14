@@ -1,0 +1,44 @@
+
+.text-container {
+    max-width: 750px;
+    margin: 3em auto;
+}
+
+.center {
+    text-align: center;
+}
+
+#back-link {
+    font-weight: 300;
+}
+
+.project-text-heading {
+    color: #7D7D80;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+} @media screen and (max-width: 575px) {
+    .subheading { margin-bottom: 24px; }
+}
+
+.project-description {
+    line-height: 23px;
+    font-weight: 300;
+}
+
+.image-container {
+    max-width: 1200px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.image-caption {
+    font-style: italic;
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+.image-container.background-fill{
+    background-color: #FAFAFA;
+}

@@ -1,0 +1,166 @@
+/* General layout */
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+.fit-parent {
+    width: 100%;
+}
+
+/* CSS grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+}
+
+.box {
+    /* border: 1px solid #000; */
+    position: relative;
+    background-color: #F4F4F4;
+    width: 225px;
+    height: 185px;
+}
+
+/* Hero section */
+.jumbotron {
+    height: 60vh;
+    background-color: #fff; 
+    
+} @media screen and (max-width: 575px) {
+    .jumbotron {
+        height: 60vh;
+    }
+}
+
+.jumbo-container {
+    padding: 8% 14%;
+}
+
+
+/* Navbar mobile layout */
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.navbar {
+    padding: 1.3rem 0;
+    width: 100%;
+}
+
+.nav-list {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0.25rem;
+    display: none;
+    user-select: none; 
+}
+
+.nav-link {
+    text-transform: lowercase;
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+
+.nav-link > a {
+    color: #4b4b4b;
+    opacity: 0.75;
+    transition: opacity 0.1s ease;
+    letter-spacing: 1px;
+}
+
+.nav-link > a:hover {
+    color: #0099ff;
+}
+
+
+
+#toggle {
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    display: none; /* checkbox - needs to be hidden */
+}
+
+#toggle:checked + .nav-list {
+    display: block;
+}
+
+.hamburger {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #000;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+.navbar-brand {
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+    letter-spacing: 2px;
+}
+
+.navbar-brand:hover {
+    opacity: 1;
+}
+
+/* Navbar desktop version */
+@media screen and (min-width: 750px) {
+    header {
+        border-bottom: none;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .nav-list {
+        display: flex;
+        justify-content: space-between;
+        width: 200px;
+        padding: 0;
+    }
+
+    .nav-link {
+        margin: 0;
+    }
+}
+
+
+#back {
+    display: none;
+}
+
+.box > a > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Footer */
+footer {
+    font-family: 'Merriweather', serif;
+    background-color: #FAFAFA;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+
+.footer-content {
+    text-align: center;
+}
