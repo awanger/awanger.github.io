@@ -1,8 +1,13 @@
 /* General layout */
 .container {
-    max-width: 1160px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 0 4%;
+} 
+@media(max-width: 1600px) {
+    .container {
+        max-width: 1160px;
+    }    
 }
 
 .fit-parent {
@@ -36,7 +41,7 @@
 }
 
 .jumbo-container {
-    padding: 8% 14%;
+    padding-top: 10%;
 }
 
 
