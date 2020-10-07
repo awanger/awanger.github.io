@@ -2,3 +2,4 @@ _site/
 /assets/.sass-cache
 .sass-cache
 .vs-code
+.jkeyll-cache
