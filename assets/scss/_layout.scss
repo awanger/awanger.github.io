@@ -4,11 +4,11 @@
     margin: 0 auto;
     padding: 0 4%;
 } 
-@media(max-width: 1600px) {
-    .container {
-        max-width: 1800px;
-    }    
-}
+// @media(max-width: 1600px) {
+//     .container {
+//         max-width: 1800px;
+//     }    
+// }
 
 .fit-parent {
     width: 100%;
@@ -72,7 +72,7 @@ header {
     a {
         font-size: 11px;
         font-weight: 400;
-        color: $dark-grey;
+        color: $light-grey;
         text-decoration: none;
         transition: color 0.1s ease;
         letter-spacing: 1px;

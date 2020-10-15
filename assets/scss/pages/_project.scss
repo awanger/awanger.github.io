@@ -6,15 +6,19 @@
     .project-title {
         font-size: 3rem;
     }
-    .project-text {
-        letter-spacing: 0.5px;
-    }
-    .project-text-heading {
+    .project-text-header {
+        font-size: 40px;
         font-family: $font-serif;
-        font-size: 1.5rem;
-        letter-spacing: 1px;
-        margin-bottom: 5px;
-    } @media screen and (max-width: 575px) {
+        margin-bottom: 15px;
+    }
+    .project-text {
+        font-size: 18px;
+        font-weight: 100;
+        letter-spacing: 0.5px;
+        line-height: 30px;
+        color: $dark-grey;
+    }
+    @media screen and (max-width: 575px) {
         .subheading { margin-bottom: 24px; }
     }
 }
