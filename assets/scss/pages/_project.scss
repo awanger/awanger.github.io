@@ -1,9 +1,22 @@
-
 .text-container {
+    font-size: 1.125rem;
     max-width: 1200px;
     line-height: 30px;
-    letter-spacing: 0.5px;
     margin: 3em auto;
+    .project-title {
+        font-size: 3rem;
+    }
+    .project-text {
+        letter-spacing: 0.5px;
+    }
+    .project-text-heading {
+        font-family: $font-serif;
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        margin-bottom: 5px;
+    } @media screen and (max-width: 575px) {
+        .subheading { margin-bottom: 24px; }
+    }
 }
 
 .center {
@@ -14,19 +27,9 @@
     font-weight: 300;
 }
 
-.project-title {
-    font-size: 3rem;
-}
 
 
-.project-text-heading {
-    font-family: $font-serif;
-    font-size: 1.5rem;
-    letter-spacing: 1px;
-    margin-bottom: 5px;
-} @media screen and (max-width: 575px) {
-    .subheading { margin-bottom: 24px; }
-}
+
 
 .project-description {
     line-height: 23px;
