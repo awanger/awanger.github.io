@@ -81,6 +81,9 @@ ol {
   margin: 0 auto;
   padding: 0 4%; }
 
+@media (min-width: 2000px) {
+  .container {
+    max-width: 1900px; } }
 .fit-parent {
   width: 100%; }
 
@@ -204,27 +207,38 @@ footer {
   height: 65vh;
   background-color: #fff; }
 
-@media screen and (max-width: 575px) {
+@media (max-width: 575px) {
   .jumbotron {
     height: 30vh; } }
 .home-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0.25em; }
+  grid-gap: 0.4em; }
   .home-grid .thumbnail {
-    background-color: #c2e9fb;
     display: grid;
-    transition: opacity 0.5s ease; }
+    background-color: #c2e9fb; }
     .home-grid .thumbnail::before {
       content: "";
       padding-bottom: 100%;
       display: block;
-      grid-area: 1/ 1 / 2 / 2; }
+      grid-area: 1 / 1 / 2 / 2; }
     .home-grid .thumbnail img {
+      width: 100%;
       grid-area: 1/ 1 / 2 / 2; }
-    .home-grid .thumbnail:hover {
-      opacity: 80%;
-      cursor: pointer; }
+    .home-grid .thumbnail .overlay {
+      grid-area: 1/ 1 / 2 / 2;
+      opacity: 0;
+      background-color: rgba(255, 255, 255, 0.8);
+      transition: opacity 0.2s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .home-grid .thumbnail .overlay:hover {
+        opacity: 0.99;
+        cursor: pointer; }
+      .home-grid .thumbnail .overlay .text {
+        text-align: center;
+        font-size: 2rem; }
 
 .jumbo-container {
   padding-top: 10%; }

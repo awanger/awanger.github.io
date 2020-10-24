@@ -4,40 +4,47 @@
 
 /* Hero section */
 .jumbotron {
-    height: 65vh;
-    background-color: #fff; 
-    
-} @media screen and (max-width: 575px) {
-    .jumbotron {
-        height: 30vh;
-    }
+  height: 65vh;
+  background-color: #fff; 
+} 
+@media (max-width: 575px) {
+  .jumbotron {
+      height: 30vh;
+  }
 }
 
 .home-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 0.25em;
-    .thumbnail {
-        background-color: #c2e9fb;
-        display: grid;
-        @include smooth-animation;
-        &::before {
-            content: "";
-            padding-bottom: 100%;
-            display: block;
-            grid-area: 1/ 1 / 2 / 2; // forces element onto the first row and column of grid
-        }
-        img {
-            grid-area: 1/ 1 / 2 / 2;
-        }
-        &:hover {
-            @include hover-effect;
-        }
-    }
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.4em;
+  .thumbnail {
+      display: grid;
+      background-color: #c2e9fb;
+      @include force-square;
+      img {
+          width: 100%;
+          grid-area: 1/ 1 / 2 / 2;
+      }
+      .overlay {
+          grid-area: 1/ 1 / 2 / 2;
+          opacity: 0;
+          background-color: $snow-white;
+          @include smooth-animation;
+          @include flex-center;
+          &:hover {
+              opacity: 0.99; // don't know why opacity=1 causes a problem
+              cursor: pointer;
+          }
+          .text {
+              text-align: center;
+              font-size: 2rem;
+          }
+      }
+  }
 }
 
 .jumbo-container {
-    padding-top: 10%;
+  padding-top: 10%;
 }
 
 .title {

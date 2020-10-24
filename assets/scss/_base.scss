@@ -7,16 +7,29 @@ $font-serif: 'Merriweather', serif;
 $highlight: #0099ff;
 $light-grey: rgba(0,0,0,.6);
 $dark-grey: #333;
+$snow-white: rgba(255,255,255,0.8);
 
 /* Mixins */
 @mixin smooth-animation {
-    transition: opacity 0.5s ease;
-}
-@mixin hover-effect {
-    opacity: 80%;
-    cursor: pointer;
+    transition: opacity 0.2s ease;
 }
 
+// Force the height to be the same as the width
+@mixin force-square {
+    &::before {
+        content: "";
+        padding-bottom: 100%;
+        display: block;
+        grid-area: 1 / 1 / 2 / 2; // forces element onto the first row and column of grid
+    }
+}
+
+// Horizontally and vertically center every element 
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 body {
     font-family: $font-sans;

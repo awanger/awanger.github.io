@@ -4,11 +4,11 @@
     margin: 0 auto;
     padding: 0 4%;
 } 
-// @media(max-width: 1600px) {
-//     .container {
-//         max-width: 1800px;
-//     }    
-// }
+@media(min-width: 2000px) { // ultrawide
+    .container {
+        max-width: 1900px;
+    }    
+}
 
 .fit-parent {
     width: 100%;
