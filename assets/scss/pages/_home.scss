@@ -1,6 +1,43 @@
 #portfolio-content {
-    background-color: $light-grey;
     padding: 1em 0;
+}
+
+/* Hero section */
+.jumbotron {
+    height: 65vh;
+    background-color: #fff; 
+    
+} @media screen and (max-width: 575px) {
+    .jumbotron {
+        height: 30vh;
+    }
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.25em;
+    .thumbnail {
+        background-color: #c2e9fb;
+        display: grid;
+        @include smooth-animation;
+        &::before {
+            content: "";
+            padding-bottom: 100%;
+            display: block;
+            grid-area: 1/ 1 / 2 / 2; // forces element onto the first row and column of grid
+        }
+        img {
+            grid-area: 1/ 1 / 2 / 2;
+        }
+        &:hover {
+            @include hover-effect;
+        }
+    }
+}
+
+.jumbo-container {
+    padding-top: 10%;
 }
 
 .title {
