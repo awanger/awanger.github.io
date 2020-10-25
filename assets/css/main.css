@@ -191,10 +191,7 @@ header {
 
 /* Footer */
 footer {
-  font-family: 'Merriweather', serif;
-  background-color: #FAFAFA;
-  padding-top: 10px;
-  padding-bottom: 60px; }
+  padding: 4% 0; }
 
 .footer-content {
   text-align: center; }
