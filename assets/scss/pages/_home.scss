@@ -5,7 +5,8 @@
 /* Hero section */
 .jumbotron {
   height: 65vh;
-  background-color: #fff; 
+  background-color: #fff;
+  padding-top: 10%;
 } 
 @media (max-width: 575px) {
   .jumbotron {
@@ -41,10 +42,6 @@
           }
       }
   }
-}
-
-.jumbo-container {
-  padding-top: 10%;
 }
 
 .title {

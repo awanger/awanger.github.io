@@ -202,7 +202,8 @@ footer {
 /* Hero section */
 .jumbotron {
   height: 65vh;
-  background-color: #fff; }
+  background-color: #fff;
+  padding-top: 10%; }
 
 @media (max-width: 575px) {
   .jumbotron {
@@ -236,9 +237,6 @@ footer {
       .home-grid .thumbnail .overlay .text {
         text-align: center;
         font-size: 2rem; }
-
-.jumbo-container {
-  padding-top: 10%; }
 
 .title {
   font-family: "Merriweather", serif;
