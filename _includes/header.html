@@ -1,6 +1,6 @@
 <header>
-  <div class="container">
-    <nav class="navbar">
+  <nav class="navbar">
+    <div class="container">
       <label for="toggle" class="hamburger"><i class="fa fa-bars"></i></label>
       <input type="checkbox" id="toggle">
       <ul class="nav-list">
@@ -9,18 +9,22 @@
         <li class="nav-link"><a href="/#footer">contact</a></li>
       </ul>
       <div id="back" class="nav-link"><a href="/#portfolio-content">back</a></div>
-    </nav>
-  </div>
+    </div>
+  </nav>
 </header>
 <script>
   const currentPage = document.URL;
-  const navList = document.querySelector(".nav-list")
+  const navBar = document.querySelector(".navbar");
+  const navList = document.querySelector(".nav-list");
   const backBtn = document.querySelector("#back");
+
+
 
   function displayNavLinks() {
     if (currentPage.includes("/projects")) {
-      navList.setAttribute("style", "display:none");
-      backBtn.setAttribute("style", "display:block");
+      // navList.setAttribute("style", "display:none");
+      // backBtn.setAttribute("style", "display:block");
+
     }
   }
   

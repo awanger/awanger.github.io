@@ -75,10 +75,19 @@ ol {
   list-style-type: decimal;
   padding-left: 20px; }
 
+/* Hero section */
+.jumbotron {
+  height: 75vh;
+  background-color: #fff; }
+  .jumbotron.jumbotron-padding {
+    padding-top: 14%; }
+
+@media (max-width: 575px) {
+  .jumbotron {
+    height: 30vh; } }
 /* General layout */
 .container {
   max-width: 1600px;
-  margin: 0 auto;
   padding: 0 4%; }
 
 @media (min-width: 2000px) {
@@ -107,7 +116,10 @@ header {
 
 .navbar {
   padding: 1.3rem 0;
-  width: 100%; }
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0; }
 
 .nav-list {
   text-align: center;
@@ -199,15 +211,6 @@ footer {
 #portfolio-content {
   padding: 1em 0; }
 
-/* Hero section */
-.jumbotron {
-  height: 65vh;
-  background-color: #fff;
-  padding-top: 10%; }
-
-@media (max-width: 575px) {
-  .jumbotron {
-    height: 30vh; } }
 .home-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

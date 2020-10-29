@@ -2,17 +2,6 @@
     padding: 1em 0;
 }
 
-/* Hero section */
-.jumbotron {
-  height: 65vh;
-  background-color: #fff;
-  padding-top: 10%;
-} 
-@media (max-width: 575px) {
-  .jumbotron {
-      height: 30vh;
-  }
-}
 
 .home-grid {
   display: grid;

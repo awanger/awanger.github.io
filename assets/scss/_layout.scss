@@ -1,7 +1,20 @@
+/* Hero section */
+.jumbotron {
+    height: 75vh;
+    background-color: #fff;
+    &.jumbotron-padding {
+      padding-top: 14%;
+    }
+  } 
+  @media (max-width: 575px) {
+    .jumbotron {
+      height: 30vh;
+    }
+  }
+
 /* General layout */
 .container {
     max-width: 1600px;
-    margin: 0 auto;
     padding: 0 4%;
 } 
 @media(min-width: 2000px) { // ultrawide
@@ -38,8 +51,12 @@ header {
 
 .navbar {
     padding: 1.3rem 0;
-    width: 100%;
+    position: absolute;
+    width: 100%; // not sure if this will work with every screen
+    top: 0;
+    right: 0;
 }
+
 
 .nav-list {
     text-align: center;
