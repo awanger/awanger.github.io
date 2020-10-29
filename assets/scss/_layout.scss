@@ -163,6 +163,7 @@ header {
 /* Footer */
 footer {
     padding: 4% 0;
+    @include flex-center;
 }
 
 .footer-content {
