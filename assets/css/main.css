@@ -92,8 +92,9 @@ ol {
 
 /* Hero section */
 .jumbotron {
-  height: 75vh;
-  background-color: #fff; }
+  height: 80vh;
+  background-color: #fff;
+  overflow: hidden; }
   .jumbotron.jumbotron-padding {
     padding-top: 14%; }
 
