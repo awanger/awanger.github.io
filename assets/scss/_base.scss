@@ -8,6 +8,7 @@ $highlight: #0099ff;
 $light-grey: rgba(0,0,0,.6);
 $dark-grey: #333;
 $snow-white: rgba(255,255,255,0.8);
+$dark-tint: rgba(0,0,0,0.15);
 
 /* Mixins */
 @mixin smooth-animation {
@@ -30,6 +31,7 @@ $snow-white: rgba(255,255,255,0.8);
     align-items: center;
     justify-content: center;
 }
+
 
 body {
     font-family: $font-sans;
@@ -55,4 +57,23 @@ p {
 ol {
     list-style-type: decimal;
     padding-left: 20px;
+}
+
+// Utility classes
+.dark-container {
+    position: relative;
+    z-index: 2;
+    &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: $dark-tint;
+    }
+    img {
+        z-index: 1;
+    }
 }

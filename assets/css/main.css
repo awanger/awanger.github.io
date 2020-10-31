@@ -75,6 +75,21 @@ ol {
   list-style-type: decimal;
   padding-left: 20px; }
 
+.dark-container {
+  position: relative;
+  z-index: 2; }
+  .dark-container:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.15); }
+  .dark-container img {
+    z-index: 1; }
+
 /* Hero section */
 .jumbotron {
   height: 75vh;
@@ -119,7 +134,8 @@ header {
   position: absolute;
   width: 100%;
   top: 0;
-  right: 0; }
+  right: 0;
+  z-index: 3; }
 
 .nav-list {
   text-align: center;

@@ -12,6 +12,7 @@
     }
   }
 
+
 /* General layout */
 .container {
     max-width: 1600px;
@@ -55,6 +56,7 @@ header {
     width: 100%; // not sure if this will work with every screen
     top: 0;
     right: 0;
+    z-index: 3; // has to be on top of the dark container
 }
 
 
