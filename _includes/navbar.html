@@ -14,20 +14,18 @@
 </header>
 <script>
   const currentPage = document.URL;
-  const navBar = document.querySelector(".navbar");
-  const navList = document.querySelector(".nav-list");
-  const backBtn = document.querySelector("#back");
+  const navLinks = document.querySelectorAll("a");
 
+  function addLightenTextClass(item) {
+    item.classList.add('lighten-text');
+  } 
 
-
-  function displayNavLinks() {
+  function toggleNavLinksColor() {
     if (currentPage.includes("/projects")) {
-      // navList.setAttribute("style", "display:none");
-      // backBtn.setAttribute("style", "display:block");
-
+      navLinks.forEach(addLightenTextClass);
     }
   }
   
-  displayNavLinks();
+toggleNavLinksColor();
 
 </script>
