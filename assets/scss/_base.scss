@@ -4,6 +4,10 @@
 /* Variables */
 $font-sans: 'Lato', sans-serif;
 $font-serif: 'Merriweather', serif;
+$normal: 300;
+$semibold: 450;
+$bold: 600;
+
 $highlight: #0099ff;
 $light-grey: rgba(0,0,0,.6);
 $dark-grey: #333;
@@ -12,68 +16,70 @@ $dark-tint: rgba(0,0,0,0.24);
 
 /* Mixins */
 @mixin smooth-animation {
-    transition: 0.2s ease;
+  transition: 0.2s ease;
 }
 
 // Force the height to be the same as the width
 @mixin force-square {
-    &::before {
-        content: "";
-        padding-bottom: 100%;
-        display: block;
-        grid-area: 1 / 1 / 2 / 2; // forces element onto the first row and column of grid
-    }
+  &::before {
+      content: "";
+      padding-bottom: 100%;
+      display: block;
+      grid-area: 1 / 1 / 2 / 2; // forces element onto the first row and column of grid
+  }
 }
 
 // Horizontally and vertically center every element 
 @mixin flex-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
 body {
-    font-family: $font-sans;
-    font-size: 18px;
-    color: #000;
+  font-family: $font-sans;
+  font-size: 18px;
+  color: #000;
 }
 
 h1 {
-    font-size: 1.75rem;
+  font-size: 1.75rem;
 }
 
 a {
-    text-decoration: underline;
-    color: $highlight;
+  text-decoration: underline;
+  color: $highlight;
 }
 
 p {
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 23px;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 0.75rem;
 }
 
 ol {
-    list-style-type: decimal;
-    padding-left: 20px;
+  @extend p;
+  list-style-type: decimal;
+  padding-left: 20px;
 }
 
 // Utility classes
 .dark-container {
-    position: relative;
-    z-index: 2;
-    &:before {
-        content: "";
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        background-color: $dark-tint;
-    }
-    img {
-        z-index: 1;
-    }
+  position: relative;
+  z-index: 2;
+  &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-color: $dark-tint;
+  }
+  img {
+      z-index: 1;
+  }
 }

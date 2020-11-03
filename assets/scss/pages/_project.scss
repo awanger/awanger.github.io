@@ -1,56 +1,44 @@
 .text-container {
-    font-size: 1.125rem;
-    line-height: 30px;
-    margin: 3em auto;
-    .project-title {
-        font-size: 3rem;
-    }
-    .project-text-header {
-        font-size: 40px;
-        font-family: $font-serif;
-        margin-bottom: 15px;
-    }
-    .project-text {
-        font-size: 18px;
-        font-weight: 100;
-        letter-spacing: 0.5px;
-        line-height: 30px;
-        color: $dark-grey;
-    }
-    @media screen and (max-width: 575px) {
-        .subheading { margin-bottom: 24px; }
-    }
+  color: black;
+  font-size: 1.125rem;
+  line-height: 30px;
+  margin: 3em auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.center {
-    text-align: center;
+.project-title {
+  font-size: 3rem;
+  font-weight: $bold;
 }
+.project-header {
+  grid-column: 1/2;
+  font-size: 3rem;
+  font-weight: $semibold;
+  font-family: $font-sans;
 
-#back-link {
-    font-weight: 300;
 }
-
-
-
-
-
-.project-description {
-    line-height: 23px;
-    font-weight: 300;
+.project-body {
+    grid-column: 2/4;
+    .paragraph-header {
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+    }
 }
 
 .image-container {
-    max-width: 1200px;
-    text-align: center;
-    padding-bottom: 15px;
+  max-width: 1200px;
+  text-align: center;
+  padding-bottom: 15px;
 }
 
 .image-caption {
-    font-style: italic;
-    font-size: 12px;
-    margin-top: 12px;
+  font-style: italic;
+  font-size: 12px;
+  margin-top: 12px;
 }
 
 .image-container.background-fill{
-    background-color: #FAFAFA;
+  background-color: #FAFAFA;
 }

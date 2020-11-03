@@ -10,7 +10,7 @@
   margin: 0; }
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h2, h3, h4, h5, h6, p, ol, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -66,10 +66,11 @@ a {
   text-decoration: underline;
   color: #0099ff; }
 
-p {
-  font-size: 1rem;
+p, ol {
+  font-size: 1em;
   font-weight: 300;
-  line-height: 23px; }
+  line-height: 30px;
+  margin-bottom: 0.75rem; }
 
 ol {
   list-style-type: decimal;
@@ -103,7 +104,7 @@ ol {
     height: 30vh; } }
 /* General layout */
 .container {
-  max-width: 1600px;
+  max-width: 1800px;
   padding: 0 4%; }
 
 @media (min-width: 2000px) {
@@ -356,34 +357,29 @@ footer {
   background-color: #FFFFFF; }
 
 .text-container {
+  color: black;
   font-size: 1.125rem;
   line-height: 30px;
-  margin: 3em auto; }
-  .text-container .project-title {
-    font-size: 3rem; }
-  .text-container .project-text-header {
-    font-size: 40px;
-    font-family: "Merriweather", serif;
-    margin-bottom: 15px; }
-  .text-container .project-text {
-    font-size: 18px;
-    font-weight: 100;
-    letter-spacing: 0.5px;
-    line-height: 30px;
-    color: #333; }
-  @media screen and (max-width: 575px) {
-    .text-container .subheading {
-      margin-bottom: 24px; } }
+  margin: 3em auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
 
-.center {
-  text-align: center; }
+.project-title {
+  font-size: 3rem;
+  font-weight: 600; }
 
-#back-link {
-  font-weight: 300; }
+.project-header {
+  grid-column: 1/2;
+  font-size: 3rem;
+  font-weight: 450;
+  font-family: "Lato", sans-serif; }
 
-.project-description {
-  line-height: 23px;
-  font-weight: 300; }
+.project-body {
+  grid-column: 2/4; }
+  .project-body .paragraph-header {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem; }
 
 .image-container {
   max-width: 1200px;
