@@ -54,7 +54,7 @@ a {
 
 p {
   font-size: 1em;
-  font-weight: 300;
+  font-weight: $normal;
   line-height: 30px;
   margin-bottom: 0.75rem;
 }
@@ -67,19 +67,19 @@ ol {
 
 // Utility classes
 .dark-container {
-  position: relative;
-  z-index: 2;
-  &:before {
-      content: "";
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      background-color: $dark-tint;
-  }
-  img {
-      z-index: 1;
-  }
+position: relative;
+z-index: 2;
+&:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: $dark-tint;
+}
+img {
+  z-index: 1;
+}
 }
