@@ -91,6 +91,20 @@ ol {
   .dark-container img {
     z-index: 1; }
 
+/* Icon Set */
+.icon {
+  width: 32px;
+  height: 32px; }
+  .icon.icon-email {
+    background: url(/assets/icons/envelope-solid.svg) no-repeat;
+    background-position: center; }
+  .icon.icon-linkedin {
+    background: url(/assets/icons/linkedin-brands.svg) no-repeat;
+    background-position: center; }
+  .icon.icon-github {
+    background: url(/assets/icons/github-square-brands.svg) no-repeat;
+    background-position: center; }
+
 /* Hero section */
 .jumbotron {
   height: 80vh;
@@ -225,11 +239,19 @@ header {
 footer {
   padding: 4% 0;
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: center; }
+  height: 35vh; }
 
 .footer-content {
   text-align: center; }
+  .footer-content h1 {
+    font-weight: 300;
+    font-size: 1.75rem; }
+  .footer-content .contact-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%; }
 
 #portfolio-content {
   padding: 1em 0; }
@@ -255,8 +277,8 @@ footer {
       background-color: rgba(255, 255, 255, 0.8);
       transition: 0.2s ease;
       display: flex;
-      align-items: center;
-      justify-content: center; }
+      justify-content: center;
+      align-items: center; }
       .home-grid .thumbnail .overlay:hover {
         opacity: 0.99;
         cursor: pointer; }

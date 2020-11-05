@@ -19,6 +19,10 @@ $dark-tint: rgba(0,0,0,0.24);
   transition: 0.2s ease;
 }
 
+@mixin color-hover {
+
+}
+
 // Force the height to be the same as the width
 @mixin force-square {
   &::before {
@@ -32,8 +36,8 @@ $dark-tint: rgba(0,0,0,0.24);
 // Horizontally and vertically center every element 
 @mixin flex-center {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: center; // center horizontally
+  align-items: center; // center vertically
 }
 
 
@@ -67,19 +71,39 @@ ol {
 
 // Utility classes
 .dark-container {
-position: relative;
-z-index: 2;
-&:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background-color: $dark-tint;
+  position: relative;
+  z-index: 2;
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: $dark-tint;
+  }
+  img {
+    z-index: 1;
+  }
 }
-img {
-  z-index: 1;
-}
+
+
+/* Icon Set */
+.icon {
+  width: 32px;
+  height: 32px;
+  &.icon-email {
+    background: url(/assets/icons/envelope-solid.svg) no-repeat; // make a function later
+    background-position: center;
+
+  }
+  &.icon-linkedin {
+    background: url(/assets/icons/linkedin-brands.svg) no-repeat;
+    background-position: center;
+  }
+  &.icon-github {
+    background: url(/assets/icons/github-square-brands.svg) no-repeat;
+    background-position: center;
+  }
 }

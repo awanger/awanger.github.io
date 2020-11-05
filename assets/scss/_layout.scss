@@ -1,177 +1,188 @@
 /* Hero section */
 .jumbotron {
-    height: 80vh;
-    background-color: #fff;
-    overflow: hidden;
-    &.jumbotron-padding {
-      padding-top: 14%;
-    }
-  } 
-  @media (max-width: 575px) {
-    .jumbotron {
-      height: 30vh;
-    }
+  height: 80vh;
+  background-color: #fff;
+  overflow: hidden;
+  &.jumbotron-padding {
+    padding-top: 14%;
   }
+} 
+@media (max-width: 575px) {
+  .jumbotron {
+    height: 30vh;
+  }
+}
 
 
 /* General layout */
 .container {
-    max-width: 1800px;
-    padding: 0 4%;
+  max-width: 1800px;
+  padding: 0 4%;
 } 
 @media(min-width: 2000px) { // ultrawide
-    .container {
-        max-width: 1900px;
-    }    
+  .container {
+      max-width: 1900px;
+  }    
 }
 
 .fit-parent {
-    width: 100%;
+  width: 100%;
 }
 
 /* CSS grid */
 .grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
 }
 
 .box {
-    /* border: 1px solid #000; */
-    position: relative;
-    background-color: #F4F4F4;
-    width: 225px;
-    height: 185px;
+  /* border: 1px solid #000; */
+  position: relative;
+  background-color: #F4F4F4;
+  width: 225px;
+  height: 185px;
 }
 
 
 /* Navbar mobile layout */
 header {
-    background-color: #fff;
-    border-bottom: 1px solid #D3D3D3;
+  background-color: #fff;
+  border-bottom: 1px solid #D3D3D3;
 }
 
 .navbar {
-    padding: 1.3rem 0;
-    position: absolute;
-    width: 100%; // not sure if this will work with every screen
-    top: 0;
-    right: 0;
-    z-index: 3; // has to be on top of the dark container
+  padding: 1.3rem 0;
+  position: absolute;
+  width: 100%; // not sure if this will work with every screen
+  top: 0;
+  right: 0;
+  z-index: 3; // has to be on top of the dark container
 }
 
 
 .nav-list {
-    text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 0.25rem;
-    display: none;
-    user-select: none; 
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 0.25rem;
+  display: none;
+  user-select: none; 
 }
 
 .nav-link {
-    text-transform: lowercase;
-    font-size: 0.8rem;
-    font-weight: 300;
-    margin-bottom: 12px;
-    a {
-        font-size: 11px;
-        font-weight: 400;
-        text-decoration: none;
-        transition: color 0.1s ease;
-        letter-spacing: 1px;
-        color: $light-grey;
-        text-transform: uppercase;
-        margin-right: 1.5rem;
-        &.lighten-text {
-            color: $snow-white;
-        }
-        &:hover {
-            color: $highlight
-        }
-    }
+  text-transform: lowercase;
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin-bottom: 12px;
+  a {
+      font-size: 11px;
+      font-weight: 400;
+      text-decoration: none;
+      transition: color 0.1s ease;
+      letter-spacing: 1px;
+      color: $light-grey;
+      text-transform: uppercase;
+      margin-right: 1.5rem;
+      &.lighten-text {
+          color: $snow-white;
+      }
+      &:hover {
+          color: $highlight
+      }
+  }
 }
 
 #toggle {
-    position: absolute;
-    top: -100px;
-    left: -100px;
-    display: none; /* checkbox - needs to be hidden */
-    &:checked + .nav-list {
-        display: block;
-    }
+  position: absolute;
+  top: -100px;
+  left: -100px;
+  display: none; /* checkbox - needs to be hidden */
+  &:checked + .nav-list {
+      display: block;
+  }
 }
 
 
 .hamburger {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 24px;
-    color: #000;
-    opacity: 0.5;
-    cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: #000;
+  opacity: 0.5;
+  cursor: pointer;
 }
 
 
 .navbar-brand {
-    display: inline-block;
-    font-size: 12px;
-    text-transform: uppercase;
-    opacity: 0.5;
-    transition: opacity 0.5s ease;
-    letter-spacing: 2px;
+  display: inline-block;
+  font-size: 12px;
+  text-transform: uppercase;
+  opacity: 0.5;
+  transition: opacity 0.5s ease;
+  letter-spacing: 2px;
 
-    &:hover {
-        opacity: 1;
-    }
+  &:hover {
+      opacity: 1;
+  }
 }
 
 
 /* Navbar desktop version */
 @media screen and (min-width: 750px) {
-    header {
-        border-bottom: none;
-    }
+  header {
+      border-bottom: none;
+  }
 
-    .hamburger {
-        display: none;
-    }
+  .hamburger {
+      display: none;
+  }
 
-    .navbar {
-        display: flex;
-        flex-direction: row-reverse;
-    }
+  .navbar {
+      display: flex;
+      flex-direction: row-reverse;
+  }
 
-    .nav-list {
-        display: flex;
-        justify-content: space-between;
-        width: 200px;
-        padding: 0;
-    }
+  .nav-list {
+      display: flex;
+      justify-content: space-between;
+      width: 200px;
+      padding: 0;
+  }
 
-    .nav-link {
-        margin: 0;
-    }
+  .nav-link {
+      margin: 0;
+  }
 }
 
 
 #back {
-    display: none;
+  display: none;
 }
 
 .box > a > img {
-    position: absolute;
-    top: 0;
-    left: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /* Footer */
 footer {
-    padding: 4% 0;
-    @include flex-center;
+  padding: 4% 0;
+  @include flex-center;
+  height: 35vh;
 }
 
 .footer-content {
-    text-align: center;
+  text-align: center;
+  h1 { // probably better way to write this selector
+    font-weight: $normal;
+    font-size: 1.75rem;
+  }
+  .contact-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+  }
 }
+
