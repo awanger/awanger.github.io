@@ -95,6 +95,8 @@ ol {
 .icon {
   width: 32px;
   height: 32px; }
+  .icon:hover {
+    filter: invert(38%) sepia(100%) saturate(2307%) hue-rotate(185deg) brightness(106%) contrast(104%); }
   .icon.icon-email {
     background: url(/assets/icons/envelope-solid.svg) no-repeat;
     background-position: center; }
@@ -107,7 +109,7 @@ ol {
 
 /* Hero section */
 .jumbotron {
-  height: 80vh;
+  height: 75vh;
   background-color: #fff;
   overflow: hidden; }
   .jumbotron.jumbotron-padding {

@@ -19,8 +19,9 @@ $dark-tint: rgba(0,0,0,0.24);
   transition: 0.2s ease;
 }
 
+// $highlight color
 @mixin color-hover {
-
+  filter: invert(38%) sepia(100%) saturate(2307%) hue-rotate(185deg) brightness(106%) contrast(104%);
 }
 
 // Force the height to be the same as the width
@@ -93,9 +94,13 @@ ol {
 .icon {
   width: 32px;
   height: 32px;
+  &:hover {
+    @include color-hover;
+  }
   &.icon-email {
     background: url(/assets/icons/envelope-solid.svg) no-repeat; // make a function later
     background-position: center;
+    
 
   }
   &.icon-linkedin {
