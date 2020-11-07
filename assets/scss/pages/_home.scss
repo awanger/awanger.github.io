@@ -17,23 +17,19 @@
       background-color: #c2e9fb;
       @include force-square;
       img {
-          width: 100%;
-          grid-area: 1/ 1 / 2 / 2;
+        width: 100%;
+        grid-area: 1/ 1 / 2 / 2;
       }
       .overlay {
-          grid-area: 1/ 1 / 2 / 2;
-          opacity: 0;
-          background-color: $snow-white;
-          @include smooth-animation;
-          @include flex-center;
-          &:hover {
-              opacity: 0.99; // don't know why opacity=1 causes a problem
-              cursor: pointer;
-          }
-          .text {
-              text-align: center;
-              font-size: 2rem;
-          }
+        grid-area: 1/ 1 / 2 / 2;
+        opacity: 0;
+        background-color: $snow-white;
+        @include smooth-animation;
+        @include flex-center;
+        &:hover {
+            opacity: 0.99; // don't know why opacity=1 causes a problem
+            cursor: pointer;
+        }
       }
   }
 }

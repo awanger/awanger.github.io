@@ -63,8 +63,8 @@ h1 {
   font-size: 1.75rem; }
 
 a {
-  text-decoration: underline;
-  color: #0099ff; }
+  text-decoration: none;
+  color: inherit; }
 
 p, ol {
   font-size: 1em;
@@ -284,9 +284,6 @@ footer {
       .home-grid .thumbnail .overlay:hover {
         opacity: 0.99;
         cursor: pointer; }
-      .home-grid .thumbnail .overlay .text {
-        text-align: center;
-        font-size: 2rem; }
 
 .title {
   font-family: "Merriweather", serif;

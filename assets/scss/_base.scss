@@ -27,10 +27,10 @@ $dark-tint: rgba(0,0,0,0.24);
 // Force the height to be the same as the width
 @mixin force-square {
   &::before {
-      content: "";
-      padding-bottom: 100%;
-      display: block;
-      grid-area: 1 / 1 / 2 / 2; // forces element onto the first row and column of grid
+    content: "";
+    padding-bottom: 100%;
+    display: block;
+    grid-area: 1 / 1 / 2 / 2; // forces element onto the first row and column of grid
   }
 }
 
@@ -53,8 +53,8 @@ h1 {
 }
 
 a {
-  text-decoration: underline;
-  color: $highlight;
+  text-decoration: none;
+  color: inherit;
 }
 
 p {
