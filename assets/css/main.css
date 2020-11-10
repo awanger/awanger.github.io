@@ -120,12 +120,8 @@ ol {
     height: 30vh; } }
 /* General layout */
 .container {
-  max-width: 1800px;
   padding: 0 4%; }
 
-@media (min-width: 2000px) {
-  .container {
-    max-width: 1900px; } }
 .fit-parent {
   width: 100%; }
 
@@ -148,12 +144,19 @@ header {
   border-bottom: 1px solid #D3D3D3; }
 
 .navbar {
-  padding: 1.3rem 0;
+  padding: 2rem 0;
   position: absolute;
   width: 100%;
   top: 0;
   right: 0;
   z-index: 3; }
+  .navbar .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+
+.logo {
+  color: rgba(0, 0, 0, 0.6); }
 
 .nav-list {
   text-align: center;

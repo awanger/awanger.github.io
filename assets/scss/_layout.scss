@@ -16,14 +16,14 @@
 
 /* General layout */
 .container {
-  max-width: 1800px;
+  // max-width: 2000px;
   padding: 0 4%;
 } 
-@media(min-width: 2000px) { // ultrawide
-  .container {
-      max-width: 1900px;
-  }    
-}
+// @media(min-width: 2000px) { // ultrawide
+//   .container {
+//     max-width: 2000px;
+//   }    
+// }
 
 .fit-parent {
   width: 100%;
@@ -52,12 +52,21 @@ header {
 }
 
 .navbar {
-  padding: 1.3rem 0;
+  padding: 2rem 0;
   position: absolute;
   width: 100%; // not sure if this will work with every screen
   top: 0;
   right: 0;
   z-index: 3; // has to be on top of the dark container
+  .container { // modified container for navbar; maybe I shouldn't modify
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.logo {
+  color: $light-grey;
 }
 
 
@@ -84,10 +93,10 @@ header {
       text-transform: uppercase;
       margin-right: 1.5rem;
       &.lighten-text {
-          color: $snow-white;
+        color: $snow-white;
       }
       &:hover {
-          color: $highlight
+        color: $highlight
       }
   }
 }
