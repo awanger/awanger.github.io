@@ -151,12 +151,11 @@ header {
   right: 0;
   z-index: 3; }
   .navbar .container {
-    width: 100%;
-    display: flex;
-    justify-content: space-between; }
+    width: 100%; }
 
 .logo {
-  color: rgba(0, 0, 0, 0.6); }
+  color: rgba(0, 0, 0, 0.6);
+  display: none; }
 
 .nav-list {
   text-align: center;
@@ -220,9 +219,9 @@ header {
   .hamburger {
     display: none; }
 
-  .navbar {
+  .navbar .container {
     display: flex;
-    flex-direction: row-reverse; }
+    justify-content: space-between; }
 
   .nav-list {
     display: flex;
@@ -231,14 +230,12 @@ header {
     padding: 0; }
 
   .nav-link {
-    margin: 0; } }
+    margin: 0; }
+
+  .logo {
+    display: block; } }
 #back {
   display: none; }
-
-.box > a > img {
-  position: absolute;
-  top: 0;
-  left: 0; }
 
 /* Footer */
 footer {

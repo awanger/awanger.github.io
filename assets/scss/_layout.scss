@@ -60,13 +60,13 @@ header {
   z-index: 3; // has to be on top of the dark container
   .container { // modified container for navbar; maybe I shouldn't modify
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+
   }
 }
 
 .logo {
   color: $light-grey;
+  display: none;
 }
 
 
@@ -84,20 +84,20 @@ header {
   font-weight: 300;
   margin-bottom: 12px;
   a {
-      font-size: 11px;
-      font-weight: 400;
-      text-decoration: none;
-      transition: color 0.1s ease;
-      letter-spacing: 1px;
-      color: $light-grey;
-      text-transform: uppercase;
-      margin-right: 1.5rem;
-      &.lighten-text {
-        color: $snow-white;
-      }
-      &:hover {
-        color: $highlight
-      }
+    font-size: 11px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: color 0.1s ease;
+    letter-spacing: 1px;
+    color: $light-grey;
+    text-transform: uppercase;
+    margin-right: 1.5rem;
+    &.lighten-text {
+      color: $snow-white;
+    }
+    &:hover {
+      color: $highlight
+    }
   }
 }
 
@@ -132,7 +132,7 @@ header {
   letter-spacing: 2px;
 
   &:hover {
-      opacity: 1;
+    opacity: 1;
   }
 }
 
@@ -140,39 +140,39 @@ header {
 /* Navbar desktop version */
 @media screen and (min-width: 750px) {
   header {
-      border-bottom: none;
+    border-bottom: none;
   }
 
   .hamburger {
-      display: none;
+    display: none;
   }
 
   .navbar {
+    .container {
       display: flex;
-      flex-direction: row-reverse;
+      justify-content: space-between;
+    }
   }
 
   .nav-list {
-      display: flex;
-      justify-content: space-between;
-      width: 200px;
-      padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    padding: 0;
   }
 
   .nav-link {
-      margin: 0;
+    margin: 0;
+  }
+
+  .logo {
+    display: block;
   }
 }
 
-
+// need to delete this CSS block eventually
 #back {
   display: none;
-}
-
-.box > a > img {
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 /* Footer */
