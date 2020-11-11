@@ -14,6 +14,11 @@ $dark-grey: #333;
 $snow-white: rgba(255,255,255,0.8);
 $dark-tint: rgba(0,0,0,0.24);
 
+// Breakpoints
+$lg: 1080px;
+$md: 720px;
+$sm: 375px;
+
 /* Mixins */
 @mixin smooth-animation {
   transition: 0.2s ease;
@@ -110,5 +115,11 @@ ol {
   &.icon-github {
     background: url(/assets/icons/github-square-brands.svg) no-repeat;
     background-position: center;
+  }
+}
+@media (max-width: $sm) {
+  .icon {
+    width: 25px;
+    height: 25px;
   }
 }
