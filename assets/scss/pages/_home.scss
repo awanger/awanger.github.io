@@ -7,7 +7,7 @@
   grid-gap: 0.4em;
   .thumbnail {
     display: grid;
-    background-color: #c2e9fb;
+    // background-color: #c2e9fb;
     @include force-square;
     img {
     width: 100%;
