@@ -188,7 +188,7 @@ ol {
   cursor: pointer; }
 
 /* Navbar desktop version */
-@media (min-width: 1080px) {
+@media (min-width: 1180px) {
   header {
     border-bottom: none; }
 
@@ -213,9 +213,8 @@ ol {
 /* Footer */
 footer {
   padding: 4% 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  place-items: center;
   height: 35vh; }
 
 .footer-content {
@@ -236,7 +235,6 @@ footer {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   grid-gap: 0.4em; }
   .grid .thumbnail {
     display: grid;
@@ -254,9 +252,8 @@ footer {
       opacity: 0;
       background-color: rgba(255, 255, 255, 0.8);
       transition: 0.2s ease;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
+      display: grid;
+      place-items: center; }
       .grid .thumbnail .overlay:hover {
         opacity: 0.99;
         cursor: pointer; }
@@ -264,6 +261,12 @@ footer {
 @media (max-width: 720px) {
   .grid {
     grid-template-columns: 1fr; } }
+@media (min-width: 720px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1180px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr); } }
 .title {
   font-family: "Merriweather", serif;
   font-weight: 400;

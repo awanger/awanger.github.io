@@ -129,7 +129,7 @@
 /* Footer */
 footer {
   padding: 4% 0;
-  @include flex-center;
+  @include center-elements;
   height: 35vh;
 }
 

@@ -4,7 +4,6 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   grid-gap: 0.4em;
   .thumbnail {
     display: grid;
@@ -19,10 +18,10 @@
         opacity: 0;
         background-color: $snow-white;
         @include smooth-animation;
-        @include flex-center;
+        @include center-elements;
         &:hover {
-            opacity: 0.99; // don't know why opacity = 1 causes a problem
-            cursor: pointer;
+          opacity: 0.99; // don't know why opacity = 1 causes a problem
+          cursor: pointer;
         }
       }
   }
@@ -30,6 +29,17 @@
 @media (max-width: $md) {
   .grid {
     grid-template-columns: 1fr;
+  }
+}
+@media (min-width: $md) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: $lg) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 

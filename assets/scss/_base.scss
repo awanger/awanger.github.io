@@ -15,7 +15,7 @@ $snow-white: rgba(255,255,255,0.8);
 $dark-tint: rgba(0,0,0,0.24);
 
 // Breakpoints
-$lg: 1080px;
+$lg: 1180px;
 $md: 720px;
 $sm: 375px;
 
@@ -39,11 +39,10 @@ $sm: 375px;
   }
 }
 
-// Horizontally and vertically center every element 
-@mixin flex-center {
-  display: flex;
-  justify-content: center; // center horizontally
-  align-items: center; // center vertically
+// Horizontally and vertically center an element in the 
+@mixin center-elements {
+  display: grid;
+  place-items: center;
 }
 
 
