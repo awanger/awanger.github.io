@@ -16,7 +16,7 @@
       .overlay {
         grid-area: 1 / 1 / 2 / 2;
         opacity: 0;
-        background-color: $snow-white;
+        background-color: $snow-white; // on mobile this value should be transparent I guess
         @include smooth-animation;
         @include center-elements;
         &:hover {
@@ -29,7 +29,13 @@
 @media (max-width: $md) {
   .grid {
     grid-template-columns: 1fr;
+    .thumbnail {
+      .overlay {
+        opacity: 0.8; // on mobile this value should always be >0
+      }
+    }
   }
+
 }
 @media (min-width: $md) {
   .grid {
