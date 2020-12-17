@@ -10,21 +10,22 @@
 .project-title {
   font-size: 3rem;
   font-weight: $bold;
+  line-height: normal;
 }
 .project-header {
   grid-column: 1/2;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: $semibold;
   font-family: $font-sans;
-
+  line-height: normal;
 }
 .project-body {
-    grid-column: 2/4;
-    .paragraph-header {
-      font-weight: bold;
-      text-transform: uppercase;
-      margin-bottom: 0.5rem;
-    }
+  grid-column: 2/4;
+  .paragraph-header {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
 }
 
 .image-container {
