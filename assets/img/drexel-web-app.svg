@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <clipPath id="clip-drexel-web-app">
+      <rect width="1000" height="1000"/>
+    </clipPath>
+  </defs>
+  <g id="drexel-web-app" clip-path="url(#clip-drexel-web-app)">
+    <rect width="1000" height="1000" fill="#6cace4"/>
+    <g id="drexel_web_app" transform="translate(251.5 238.198)">
+      <path id="Path_49" data-name="Path 49" d="M725.606,83.544V672.476H216.3l-166.434,0H20.735C9.284,672.476,0,660.342,0,645.374V83.544Z" transform="translate(-114.303 -96.792)" fill="#ddeafb"/>
+      <path id="Path_51" data-name="Path 51" d="M678.106,32.57V71.4H0V46.772c0-7.844,9.593-14.2,21.425-14.2Z" transform="translate(-114.303 -84.649)" fill="#056298"/>
+      <path id="Path_52" data-name="Path 52" d="M497,46.772V71.4H449.5V32.57h33.3A14.2,14.2,0,0,1,497,46.772Z" transform="translate(114.303 -84.649)" fill="#fe646f"/>
+      <path id="Path_53" data-name="Path 53" d="M482.8,32.57h-23.75a14.2,14.2,0,0,1,14.2,14.2V71.4H497V46.772a14.2,14.2,0,0,0-14.2-14.2Z" transform="translate(114.303 -84.649)" fill="#fd4755"/>
+      <path id="Path_54" data-name="Path 54" d="M148.15,110.73V224.94l-57.165,7.227L34.15,224.94V110.73a6.171,6.171,0,0,1,6.17-6.16H141.99a6.163,6.163,0,0,1,6.16,6.16Z" fill="#528fd8"/>
+      <path id="Path_55" data-name="Path 55" d="M148.15,224.94v45.51a7.315,7.315,0,0,1-7.31,7.32H41.47a7.323,7.323,0,0,1-7.32-7.32V224.94Z" fill="#fff9df"/>
+      <g id="Group_15" data-name="Group 15">
+        <path id="Path_56" data-name="Path 56" d="M147.984,380.04h-114V313.719a6.165,6.165,0,0,1,6.165-6.165H141.818a6.165,6.165,0,0,1,6.165,6.165V380.04Z" fill="#b7bf2c"/>
+        <path id="Path_73" data-name="Path 73" d="M147.984,380.04h-114V313.719a6.165,6.165,0,0,1,6.165-6.165H141.818a6.165,6.165,0,0,1,6.165,6.165V380.04Z" fill="#b7bf2c"/>
+      </g>
+      <path id="Path_57" data-name="Path 57" d="M306.03,110.73V159.8l-56.995,8.568L192.04,159.8V110.73a6.163,6.163,0,0,1,6.16-6.16H299.87a6.163,6.163,0,0,1,6.16,6.16Z" fill="#ffc630"/>
+      <g id="Group_16" data-name="Group 16">
+        <path id="Path_58" data-name="Path 58" d="M306.03,250.26v49.07l-54.651,5.783L192.04,299.33V250.26a6.165,6.165,0,0,1,6.16-6.17H299.87a6.165,6.165,0,0,1,6.16,6.17Z" fill="#ffc630"/>
+      </g>
+      <path id="Path_59" data-name="Path 59" d="M463.93,110.73V159.8l-57.064,8.568L349.93,159.8V110.73a6.165,6.165,0,0,1,6.17-6.16H457.76a6.165,6.165,0,0,1,6.17,6.16Z" fill="#528fd8"/>
+      <g id="Group_17" data-name="Group 17">
+        <path id="Path_60" data-name="Path 60" d="M306.03,159.8v45.51a7.315,7.315,0,0,1-7.31,7.32H199.35a7.315,7.315,0,0,1-7.31-7.32V159.8Z" fill="#fff9df"/>
+        <path id="Path_61" data-name="Path 61" d="M463.93,159.8v45.51a7.324,7.324,0,0,1-7.32,7.32H357.24a7.315,7.315,0,0,1-7.31-7.32V159.8Z" fill="#fff9df"/>
+        <path id="Path_62" data-name="Path 62" d="M306.03,299.33v45.51a7.306,7.306,0,0,1-7.31,7.31H199.35a7.306,7.306,0,0,1-7.31-7.31V299.33Z" fill="#fff9df"/>
+        <path id="Path_71" data-name="Path 71" d="M306.03,299.33v45.51a7.306,7.306,0,0,1-7.31,7.31H199.35a7.306,7.306,0,0,1-7.31-7.31V299.33Z" fill="#fff9df"/>
+        <path id="Path_72" data-name="Path 72" d="M306.03,299.33v45.51a7.306,7.306,0,0,1-7.31,7.31H199.35a7.306,7.306,0,0,1-7.31-7.31V299.33Z" transform="translate(-157.382 80.71)" fill="#fff9df"/>
+      </g>
+      <g id="Group_19" data-name="Group 19">
+        <g id="Group_18" data-name="Group 18">
+          <path id="Path_63" data-name="Path 63" d="M243.879,333.238H224.036a7.5,7.5,0,0,1,0-15h19.843a7.5,7.5,0,0,1,0,15Z" fill="#ffd15b"/>
+        </g>
+      </g>
+      <g id="Group_24" data-name="Group 24" transform="translate(-157.382 80.71)">
+        <g id="Group_18-2" data-name="Group 18">
+          <path id="Path_63-2" data-name="Path 63" d="M243.879,333.238H224.036a7.5,7.5,0,0,1,0-15h19.843a7.5,7.5,0,0,1,0,15Z" fill="#ffd15b"/>
+        </g>
+      </g>
+      <g id="Group_21" data-name="Group 21">
+        <path id="Path_68" data-name="Path 68" d="M117.152,259.347h-51a7.5,7.5,0,0,1,0-15h51a7.5,7.5,0,0,1,0,15Z" fill="#ffd15b"/>
+      </g>
+      <g id="Group_22" data-name="Group 22">
+        <path id="Path_69" data-name="Path 69" d="M275.034,193.714h-51a7.5,7.5,0,0,1,0-15h51a7.5,7.5,0,0,1,0,15Z" fill="#ffd15b"/>
+      </g>
+      <g id="Group_23" data-name="Group 23">
+        <path id="Path_70" data-name="Path 70" d="M432.927,193.714h-51a7.5,7.5,0,0,1,0-15h51a7.5,7.5,0,1,1,0,15Z" fill="#ffd15b"/>
+      </g>
+    </g>
+  </g>
+</svg>

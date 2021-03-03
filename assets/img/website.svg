@@ -5,7 +5,7 @@
     </clipPath>
   </defs>
   <g id="website" clip-path="url(#clip-website)">
-    <rect width="1000" height="1000" fill="#d6e1e5"/>
+    <rect width="1000" height="1000" fill="#fb8f8f"/>
     <g id="web-browser" transform="translate(217.212 217.219)">
       <path id="Path_32" data-name="Path 32" d="M517.562,76.117,463.391,50.16,38.09,57.813V515.984h440A37.409,37.409,0,0,0,515.51,478.8l2.052-312.738Z" transform="translate(5.341 7.033)" fill="#f9f7f8"/>
       <path id="Path_33" data-name="Path 33" d="M51.31,488.619V76.5h.343l-.241-.114L76.5,58.142l394.092-7.091-1.857-.891L25.187,58.142.1,76.385l.241.114H0v412.12a27.372,27.372,0,0,0,27.365,27.365h51.31A27.372,27.372,0,0,1,51.31,488.619Z" transform="translate(0 7.033)" fill="#efedef"/>
