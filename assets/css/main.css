@@ -296,6 +296,9 @@ footer {
   .blurb {
     font-size: 1em;
     font-weight: 300; } }
+#about-page {
+  padding-top: 6%; }
+
 .text-container {
   color: black;
   font-size: 1.125rem;
