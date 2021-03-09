@@ -47,10 +47,6 @@ permalink: /projects/drexel-competition
           <li>To create an intuitive web-based system design that allows users to “mix and match” certificate programs to arrive at master’s degrees</li>
           <li>All certificate options should be viewable/selectable by the user</li>
           <li>For any combination of three certificates selected, users will see the master’s degree(s) they can obtain</li>
-          <!-- <li>Before completing a technical certificate, folks without a background in CS have to complete a CS Foundations Certificate. </li>
-          <li>For each degree, a base certificate has to be completed. For example, an HCI/UX degree requires getting an HCI/UX certificate. 
-            You can’t put together a Computer Science, a Data Science, and a Software Development certificate together and get an HCI/UX degree out of it.
-          </li> -->
       </div>
     </div>
     <div class="text-container">
@@ -82,7 +78,7 @@ permalink: /projects/drexel-competition
        <div class="project-body">
          <p>
           Using Miro, we created a sticky note mosaic of all of our ideas. We then split off again to sketch possible design solutions. 
-          When we met up again, we voted on the most promising design. The criterion for “most promising” was based on Nielsen’s 10 Usability Heuristics.
+          When we reconvened, we voted on the most promising design. The criterion for “most promising” was based on Nielsen’s 10 Usability Heuristics.
           From that point, after a few modifications, that design became our low-fidelity prototype that would be used for testing.
          </p>
        </div>
@@ -103,24 +99,19 @@ permalink: /projects/drexel-competition
     <div class="text-container">
       <div class="project-body">
         <p>
-          The user would check off on a certificate that they are interested in and it would then appear in the footer.
-          Once the user checks off on three certificates, they can click on the submit button and get their results.
+          The user would select a certificate that they are interested in and it would then appear in the footer.
+          Once the user selects on three certificates, they can click on the submit button and get their results.
         </p>
+        <p>
+          We received a lot of feedback in our first round and refined our prototype accordingly. 
+          One subtle issue we noticed was that users would struggle to click the small checkboxes. 
+          To address this issue, we made all the checkboxes into clickable cards. These cards are a much larger target than the small checkboxes which creates a more seamless user experience (based on Fitt’s Law).
+          Incidentally, this solution also addresses one of the user’s complaints that the “layout is kinda messy.” All the cards are of uniform shape and size, so it’s easy to place them in a grid layout.
+         </p>
       </div>
     </div>
     <div class="text-container">
       <div class="project-header">Second Test Round</div>
-       <p class="project-body">
-        We received a lot of feedback in our first round and refined our prototype accordingly. 
-        One subtle issue we noticed was that users would struggle to click the small checkboxes. 
-        To address this issue, we made all the checkboxes into clickable cards. These cards are a much larger target than the small checkboxes which creates a more seamless user experience (Fitt’s Law).
-        Incidentally, this solution also addresses one of the user’s complaints that the “layout is kinda messy.” All the cards are of uniform shape and size, so it’s easy to place them in a grid layout.
-       </p>
-    </div>
-    <div class="image-container col-1">
-      <img src="/assets/img/mid_fidelity.png" alt="mid fidelity prototype">
-    </div>
-    <div class="text-container">
       <div class="project-body">
         <p>
           For the second version of our design, I created a prototype with JavaScript that I attempted to deploy for our usability tests. This acted as a proof of concept for our mid-fidelity prototype.
@@ -128,16 +119,32 @@ permalink: /projects/drexel-competition
         </p>
         <p>
           We then conducted a second round of usability tests where the user easily completed all the tasks that we gave them. However, we noticed one problem: the design was not mobile-friendly. 
-          Up to this point in the process, we conducted the usability tests on the desktop. 
-          If we opened the prototype on a smartphone, the layout would be messed up. We then proceeded to create the final prototype.
+          We got rid of the hover effect and made all possible actions visible on the card (e.g. adding a certificate, learning more about a certificate, etc.).
         </p>
       </div>
     </div>
+    <div class="image-container col-1">
+      <img src="/assets/img/mid_fidelity.png" alt="mid fidelity prototype">
+    </div>
     <div class="text-container">
       <div class="project-header">Final Design</div>
-       <p class="project-body">
-        In the final design, we made significant color palette changes to reflect Drexel’s color palette. 
-        In addition to the aesthetic changes, we made our final design mobile-friendly by displaying all the clickable elements on the card. For example, we included a plus sign icon without the need to hover.
+      <div class="project-body">
+        <div class="paragraph-header">Visual Design</div>
+        <p>
+         In the final design, we made significant color palette changes to reflect Drexel’s color palette. 
+         In addition to the aesthetic changes, we made our final design mobile-friendly by displaying all the clickable elements on the card. For example, we included a plus sign icon without the need to hover.
+         </p>
+         <div class="paragraph-header">Judging Criteria</div>
+         <p>
+            Our design was judged based on three criteria:
+         </p>
+         <ol>
+          <li>Originality and creativity</li>
+          <li>Intuitiveness of Design and UX</li>
+          <li>Thoroughness of user testing/feedback</li>
+         </ol>
+         <p>We focused our efforts on solving the problem statement and we evaluated our own design based on Jakob Nielsen's 10 Usability heuristics to ensure that it meets some usability standard.</p>
+      </div>
     </div>
     <div class="image-container">
       <img src="/assets/img/high_fid.png" alt="high fidelity prototype">
@@ -145,25 +152,19 @@ permalink: /projects/drexel-competition
     <div class="text-container">
       <div class="project-header">Reflections</div>
       <div class="project-body">
-        <div class="paragraph-header">Challenges</div>
+        <div class="paragraph-header">Takeaways</div>
         <p>
-          I learned many lessons during this project. The contest had many design submissions and by the end, I was not clear on what made one design “better” than another. Part of the reason is that no clear KPIs were established in the beginning. Do we measure success by tracking the number of downloads? 
-          The number of clicks it takes a user to complete a task? What constitutes “intuitive design” exactly?
-        </p>
-        <p>
-          Another challenge—and one of the most difficult—was conducting the usability tests during the COVID-19 pandemic. With limited in-person contact, the majority of the tests were done over Zoom with family and friends who roughly fit the user profile. 
-          We were also restricted to digital prototypes—no option for pencil and paper prototypes.
+          During this project, I learned how to conduct the usability tests remotely. The majority of these were done over Zoom with family and friends who roughly fit the user profile. 
         </p>
         <p>
           However, there were unexpected advantages to using Zoom over in-person. For instance, it was very easy to record a session that could be referenced later. There was also no need to set up the logistics of where to meet.
         </p>
-        <div class="paragraph-header">Limitations of Clickable Prototype</div>
         <p>
-          I found one weakness with all of the prototypes that we tested. We essentially forced all the users to follow a contrived path that we set up for them. This doesn’t accurately reflect how they would use the app in real-life. 
-          Creating a fully interactive prototype where there exists multiple paths in the user flow would better simulate real-life conditions.
+          While creating the prototypes, we noticed the limitations of conducting usability testing with a Figma document. The test is constrained to a fixed path that we the designers
+          have laid out. In this context, the test had the user click certificates in a fixed order. Next time, I would implement a fully functional prototype in code that will give an even more
+          realistic experience.
         </p>
       </div>
-
     </div>
     </div>
   </div>
