@@ -129,7 +129,7 @@ b {
 
 @media (max-width: 375px) {
   .jumbotron {
-    height: 100vh; }
+    height: 100%; }
     .jumbotron.jumbotron-padding {
       padding-top: 20vh; } }
 /* General layout */
@@ -226,7 +226,7 @@ footer {
   height: 35vh; }
 
 .footer-content {
-  text-align: center; }
+  text-align: left; }
   .footer-content h1 {
     font-weight: 300;
     font-size: 1.5em; }
@@ -310,7 +310,8 @@ footer {
 @media (max-width: 375px) {
   .text-container {
     font-size: 1rem;
-    display: block; } }
+    display: block;
+    margin: 2em 0; } }
 .project-title {
   font-size: 3rem;
   font-weight: 600;
@@ -318,7 +319,7 @@ footer {
 
 @media (max-width: 375px) {
   .project-title {
-    font-size: 1.5rem; } }
+    font-size: 2rem; } }
 .project-header {
   grid-column: 1/2;
   font-size: 2.5rem;
@@ -328,7 +329,8 @@ footer {
 
 @media (max-width: 375px) {
   .project-header {
-    font-size: 1.5rem; } }
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem; } }
 .project-body {
   grid-column: 2/4; }
   .project-body .paragraph-header {
@@ -346,5 +348,9 @@ footer {
     grid-template-columns: repeat(2, 1fr); }
   .image-container img {
     width: 100%; }
+
+@media (max-width: 375px) {
+  .image-container {
+    grid-template-columns: 1fr !important; } }
 
 /*# sourceMappingURL=main.css.map */

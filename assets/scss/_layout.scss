@@ -9,7 +9,7 @@
 } 
 @media (max-width: $sm) {
   .jumbotron {
-    height: 100vh;
+    height: 100%;
     &.jumbotron-padding {
       padding-top: 20vh;
     }
@@ -134,7 +134,7 @@ footer {
 }
 
 .footer-content {
-  text-align: center;
+  text-align: left;
   h1 { // probably better way to write this selector
     font-weight: $normal;
     font-size: 1.5em;
