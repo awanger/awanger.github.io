@@ -14,18 +14,21 @@
 </header>
 <script>
   const currentPage = document.URL;
+  const logo = document.querySelector('.logo');
   const navLinks = document.querySelectorAll("a");
 
   function addLightenTextClass(item) {
     item.classList.add('lighten-text');
   } 
 
-  function toggleNavLinksColor() {
+  function toggleNavbarColor() {
     if (currentPage.includes("/projects")) {
+      addLightenTextClass(logo);
       navLinks.forEach(addLightenTextClass);
     }
   }
   
-toggleNavLinksColor();
+  toggleNavbarColor();
+
 
 </script>

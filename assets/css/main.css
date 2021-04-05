@@ -131,7 +131,7 @@ b {
   .jumbotron {
     height: 100%; }
     .jumbotron.jumbotron-padding {
-      padding-top: 20vh; } }
+      padding-top: 10vh; } }
 /* General layout */
 .container {
   padding: 0 4%; }
@@ -150,6 +150,8 @@ b {
 .logo {
   color: rgba(0, 0, 0, 0.6);
   display: none; }
+  .logo.lighten-text {
+    color: rgba(255, 255, 255, 0.8); }
 
 .nav-list {
   text-align: center;
@@ -282,6 +284,9 @@ footer {
   font-size: 4em;
   /* margin-bottom: 0.25em; */ }
 
+@media (max-width: 375px) {
+  .title {
+    display: none; } }
 .blurb {
   font-size: 1.75em;
   color: #333;
