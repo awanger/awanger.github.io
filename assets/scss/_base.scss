@@ -66,11 +66,12 @@ a {
 }
 
 p {
-  font-size: 1em;
   font-weight: $normal;
   line-height: 30px;
   margin-bottom: 0.75rem;
 }
+
+
 
 ol {
   @extend p;
