@@ -19,24 +19,27 @@
 /* General layout */
 .container {
   padding: 0 4%;
-} 
+}
 
 /* Navbar mobile layout */
 .navbar {
-  padding: 2rem 0;
-  position: absolute; // how to make it only absolute when on a project page?
+  padding: 1.75rem 0;
   width: 100%; // not sure if this will work with every screen
   top: 0;
   right: 0;
-  z-index: 3; // has to be on top of the dark container
+  z-index: 10; // has to be on top of the dark container
+  position: absolute; // how to make it only absolute when on a project page?\
   .container { // modified container for navbar; maybe I shouldn't modify
     width: 100%;
+    display: flex;
+    justify-content: space-between;
   }
 }
 
+/* mobile layout */
 .logo {
   color: $light-grey;
-  display: none;
+  // display: none;
   &.lighten-text {
     color: $snow-white;
   }
@@ -79,19 +82,18 @@
   left: -100px;
   display: none; /* checkbox - needs to be hidden */
   &:checked + .nav-list {
-      display: block;
+    display: block;
   }
 }
 
-
 .hamburger {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 24px;
-  color: #000;
+  // top: 30px;
+  // right: 10px;
   opacity: 0.5;
   cursor: pointer;
+  img {
+    width: 18px;
+  }
 }
 
 /* Navbar desktop version */

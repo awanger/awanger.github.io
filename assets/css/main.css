@@ -138,18 +138,20 @@ b {
 
 /* Navbar mobile layout */
 .navbar {
-  padding: 2rem 0;
-  position: absolute;
+  padding: 1.75rem 0;
   width: 100%;
   top: 0;
   right: 0;
-  z-index: 3; }
+  z-index: 10;
+  position: absolute; }
   .navbar .container {
-    width: 100%; }
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
 
+/* mobile layout */
 .logo {
-  color: rgba(0, 0, 0, 0.6);
-  display: none; }
+  color: rgba(0, 0, 0, 0.6); }
   .logo.lighten-text {
     color: rgba(255, 255, 255, 0.8); }
 
@@ -189,13 +191,10 @@ b {
     display: block; }
 
 .hamburger {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 24px;
-  color: #000;
   opacity: 0.5;
   cursor: pointer; }
+  .hamburger img {
+    width: 18px; }
 
 /* Navbar desktop version */
 @media (min-width: 1180px) {
