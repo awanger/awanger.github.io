@@ -187,14 +187,35 @@ b {
   left: -100px;
   display: none;
   /* checkbox - needs to be hidden */ }
-  #toggle:checked + .nav-list {
-    display: block; }
+  #toggle:checked ~ .hamburger {
+    transform: rotate(100deg); }
 
 .hamburger {
+  position: absolute;
+  top: 36px;
+  right: 15px;
   opacity: 0.5;
-  cursor: pointer; }
-  .hamburger img {
-    width: 18px; }
+  cursor: pointer;
+  /* top and bottom lines */ }
+  .hamburger div {
+    flex: none;
+    height: 2px;
+    width: 25px;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease; }
+  .hamburger div:before, .hamburger div:after {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    top: -8px;
+    width: 100%;
+    height: 2px;
+    background: inherit; }
+  .hamburger div:after {
+    top: 8px; }
 
 /* Navbar desktop version */
 @media (min-width: 1180px) {
