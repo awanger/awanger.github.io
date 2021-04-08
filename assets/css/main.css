@@ -187,8 +187,13 @@ b {
   left: -100px;
   display: none;
   /* checkbox - needs to be hidden */ }
-  #toggle:checked ~ .hamburger {
-    transform: rotate(100deg); }
+  #toggle:checked ~ .nav-list {
+    display: block; }
+  #toggle:checked ~ .hamburger div {
+    transform: rotate(135deg); }
+    #toggle:checked ~ .hamburger div:before, #toggle:checked ~ .hamburger div:after {
+      top: 0;
+      transform: rotate(90deg); }
 
 .hamburger {
   position: absolute;
@@ -196,12 +201,13 @@ b {
   right: 15px;
   opacity: 0.5;
   cursor: pointer;
+  transition: all 0.4s ease;
   /* top and bottom lines */ }
   .hamburger div {
     flex: none;
-    height: 2px;
+    height: 1px;
     width: 25px;
-    background: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -212,8 +218,8 @@ b {
     z-index: 2;
     top: -8px;
     width: 100%;
-    height: 2px;
-    background: inherit; }
+    height: 1px;
+    background-color: inherit; }
   .hamburger div:after {
     top: 8px; }
 
