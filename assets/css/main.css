@@ -151,7 +151,8 @@ b {
 
 /* mobile layout */
 .logo {
-  color: rgba(0, 0, 0, 0.6); }
+  color: rgba(0, 0, 0, 0.6);
+  z-index: 3; }
   .logo.lighten-text {
     color: rgba(255, 255, 255, 0.8); }
 
@@ -188,12 +189,19 @@ b {
   display: none;
   /* checkbox - needs to be hidden */ }
   #toggle:checked ~ .nav-list {
-    display: block; }
-  #toggle:checked ~ .hamburger div {
-    transform: rotate(135deg); }
-    #toggle:checked ~ .hamburger div:before, #toggle:checked ~ .hamburger div:after {
-      top: 0;
-      transform: rotate(90deg); }
+    display: block;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    background-color: orange; }
+  #toggle:checked ~ .hamburger {
+    z-index: 3; }
+    #toggle:checked ~ .hamburger div {
+      transform: rotate(135deg); }
+      #toggle:checked ~ .hamburger div:before, #toggle:checked ~ .hamburger div:after {
+        top: 0;
+        transform: rotate(90deg); }
 
 .hamburger {
   position: absolute;

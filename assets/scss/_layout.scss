@@ -39,6 +39,7 @@
 /* mobile layout */
 .logo {
   color: $light-grey;
+  z-index: 3;
   // display: none;
   &.lighten-text {
     color: $snow-white;
@@ -83,9 +84,15 @@
   display: none; /* checkbox - needs to be hidden */
   &:checked ~ .nav-list {
     display: block;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    background-color: orange;
   }
 
   &:checked ~ .hamburger {
+    z-index: 3;
     div {
       transform: rotate(135deg);
       &:before, &:after {
@@ -145,6 +152,7 @@
     }
   }
   .nav-list {
+    // position: static;
     display: flex;
     justify-content: space-between;
     width: 200px;
