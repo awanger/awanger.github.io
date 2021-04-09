@@ -81,7 +81,8 @@
   left: -100px;
   display: none; /* checkbox - needs to be hidden */
   &:checked ~ .nav-list {
-    display: block;
+    display: grid;
+    place-items: center;
     position: absolute;
     top:0;
     left:0;
@@ -89,6 +90,12 @@
     height: 100vh;
     overflow-y: hidden;
     background-color: #fff;
+  }
+
+  &:checked ~ .nav-list {
+    .desktop-links {
+      display: none;
+    }
   }
 
   &:checked ~ .hamburger {
@@ -153,8 +160,7 @@
   }
   .nav-list {
     // position: static;
-    display: flex;
-    justify-content: space-between;
+    display: inline;
     width: 200px;
     padding: 0;
   }
@@ -164,6 +170,16 @@
       font-size: 0.75rem;
     }
   }
+
+  .desktop-links {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mobile-links {
+    display: none;
+  }
+
   .logo {
     display: block;
   }
