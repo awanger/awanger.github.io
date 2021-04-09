@@ -49,24 +49,22 @@
 .nav-list {
   text-align: center;
   padding-top: 1rem;
-  padding-bottom: 0.25rem;
+  padding-bottom:  0.25rem;
   display: none;
   user-select: none;
 }
 
 .nav-link {
   text-transform: lowercase;
-  font-size: 0.8rem;
   font-weight: 300;
   margin-bottom: 12px;
   a {
-    font-size: 11px;
+    font-size: 2rem;
     font-weight: 400;
     text-decoration: none;
     transition: color 0.1s ease;
     letter-spacing: 1px;
     color: $light-grey;
-    text-transform: uppercase;
     margin-right: 1.5rem;
     &.lighten-text {
       color: $snow-white;
@@ -84,11 +82,13 @@
   display: none; /* checkbox - needs to be hidden */
   &:checked ~ .nav-list {
     display: block;
-    position: fixed;
+    position: absolute;
+    top:0;
+    left:0;
     width: 100vw;
     height: 100vh;
     overflow-y: hidden;
-    background-color: orange;
+    background-color: #fff;
   }
 
   &:checked ~ .hamburger {
@@ -160,6 +160,9 @@
   }
   .nav-link {
     margin: 0;
+    a {
+      font-size: 0.75rem;
+    }
   }
   .logo {
     display: block;
