@@ -54,6 +54,7 @@
   max-width: 100%;
   padding-bottom: 15px;
   display: grid;
+  grid-gap: 0.4em;
   &.col-1 {
     grid-template-columns: 1fr;
   }
@@ -70,3 +71,25 @@
   }
 }
 
+.quote-container {
+  max-width: 100%;
+  text-align: left;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  .quote {
+    font-family: $font-serif;
+    font-weight: 200;
+    font-size: 1.25rem;
+    grid-column: 2/4;
+    line-height: 1.5;
+    border-left: 3px solid black;
+    padding-left: 2%;
+    .citation {
+      font-family: $font-sans;
+      padding-top: 1%;
+      font-size: 1rem;
+      font-style: italic;
+      color: $light-grey;
+    }
+  }
+}
