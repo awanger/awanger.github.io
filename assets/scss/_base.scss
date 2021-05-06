@@ -10,6 +10,7 @@ $semibold: 500;
 $bold: 600;
 
 $highlight: #0099ff;
+$yellow-highlight: #FCF112;
 $light-grey: rgba(0,0,0,.6);
 $dark-grey: #333;
 $snow-white: rgba(255,255,255,0.8);
@@ -86,6 +87,7 @@ b {
 
 strong {
   font-weight: $semibold;
+  // background-color: $yellow-highlight; // not sure if highlighting everything is too obnoxious
 }
 
 // Utility classes
